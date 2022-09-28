@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Introduction to Data Structures and Algorithms',
-  tagline: 'Data Structures and Algorithms',
-  url: 'https://dsabydbasusarkar.github.io',
+  tagline: 'Concepts and Solved Problems',
+  url: 'https://dbasusarkar.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dbasusarkar', // Usually your GitHub org/user name.
+  projectName: 'dsa', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -36,15 +36,16 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
+          // showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,14 +54,23 @@ const config = {
     ],
   ],
 
+  plugins: ['@docusaurus/theme-live-codeblock'],
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/theme-live-codeblock').ThemeConfig} */
     ({
+      liveCodeBlock: {
+        /**
+         * The position of the live playground, above or under the editor
+         * Possible values: "top" | "bottom"
+         */
+        playgroundPosition: 'bottom',
+      },
       navbar: {
-        title: 'My Site',
+        title: 'Data Structures and Algorithms',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.ico',
         },
         items: [
           {
@@ -71,7 +81,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/dbasusarkar',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,28 +91,40 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Internal Links',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Data Structures',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Algorithms',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Patterns',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Solved Problems',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Personal Website',
+                href: 'https://dbasusarkar.github.io',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'PGP/GPG Public Key',
+                href: 'https://dbasusarkar.github.io/cheatsheets-tutorials-and-all-that-github/cheatsheets-tutorials-and-all-that-files/publickey.sci.comp@pm.me.asc',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Keybase Public Profile',
+                href: 'https://keybase.io/dbasusarkar',
               },
             ],
           },
@@ -110,17 +132,18 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Cheatsheets, Tutorials, & All That',
+                href: 'https://dbasusarkar.github.io/cheatsheets-tutorials-and-all-that-github/cheatsheets-tutorials-and-all-that.html'
+                // to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/dbasusarkar',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Debajyoti Basu Sarkar. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -129,13 +152,4 @@ const config = {
     }),
 };
 
-module.exports = {
-  // ...
-  url: 'https://dsabydbasusarkar.com', // Your website URL
-  baseUrl: '/',
-  projectName: 'dbasusarkar.github.io/dsa',
-  organizationName: 'dbasusarkar',
-  trailingSlash: false,
-  favicon: '/img/favicon.ico'
-  // ...
-};
+module.exports = config;

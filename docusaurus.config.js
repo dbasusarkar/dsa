@@ -129,4 +129,12 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {
+  // ...
+  url: 'https://dsabydbasusarkar.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'dsabydbasusarkar.github.io',
+  organizationName: 'dbasusarkar',
+  trailingSlash: false,
+  // ...
+};

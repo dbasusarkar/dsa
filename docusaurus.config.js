@@ -9,7 +9,7 @@ const config = {
   title: 'Introduction to Data Structures and Algorithms',
   tagline: 'Concepts and Solved Problems',
   url: 'https://dbasusarkar.github.io',
-  baseUrl: '/',
+  baseUrl: '/dsa/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

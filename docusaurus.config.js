@@ -131,7 +131,7 @@ const config = {
 
 module.exports = {
   // ...
-  url: 'https://dbasusarkar.github.io/dsa', // Your website URL
+  url: 'https://dsabydbasusarkar.com', // Your website URL
   baseUrl: '/',
   projectName: 'dbasusarkar.github.io/dsa',
   organizationName: 'dbasusarkar',

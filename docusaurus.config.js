@@ -131,10 +131,11 @@ const config = {
 
 module.exports = {
   // ...
-  url: 'https://dsabydbasusarkar.github.io', // Your website URL
+  url: 'https://dbasusarkar.github.io/dsa', // Your website URL
   baseUrl: '/',
-  projectName: 'dsabydbasusarkar.github.io',
+  projectName: 'dbasusarkar.github.io/dsa',
   organizationName: 'dbasusarkar',
   trailingSlash: false,
+  favicon: '/img/favicon.ico'
   // ...
 };

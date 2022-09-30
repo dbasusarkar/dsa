@@ -4,10 +4,13 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Introduction to Data Structures and Algorithms',
-  tagline: 'Concepts and Solved Problems',
+  title: "Data Structures and Algorithms",
+  tagline: 'A Very Practical Approach to Developing Problem Solving Skills',
   url: 'https://dbasusarkar.github.io',
   baseUrl: '/dsa/',
   onBrokenLinks: 'throw',
@@ -33,6 +36,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -54,11 +59,55 @@ const config = {
     ],
   ],
 
-  plugins: ['@docusaurus/theme-live-codeblock'],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
+
+  plugins: ['@docusaurus/theme-live-codeblock', require.resolve("@cmfcmf/docusaurus-search-local")],  
+
+  // themes: ['@docusaurus/theme-search-algolia'],
+
   themeConfig:
-    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    /** @type {import('@docusaurus/theme-live-codeblock').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // /** @type {import('@docusaurus/theme-live-codeblock').ThemeConfig} */
     ({
+      /*
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'YOUR_APP_ID',
+      
+        // Public API key: it is safe to commit it
+        apiKey: 'YOUR_SEARCH_API_KEY',
+      
+        indexName: 'YOUR_INDEX_NAME',
+      
+        // Optional: see doc section below
+        contextualSearch: true,
+      
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+      
+        // Optional: Algolia search parameters
+        searchParameters: {},
+      
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+      
+        //... other Algolia params
+      },
+      */
+      prism: {
+          theme: require('prism-react-renderer/themes/dracula'),
+          // theme: lightCodeTheme,
+          darkTheme: darkCodeTheme,
+          additionalLanguages: ['java', 'python',],
+      },
       liveCodeBlock: {
         /**
          * The position of the live playground, above or under the editor
@@ -74,12 +123,30 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/docs/category/big-o-notation',
+            label: 'Big O',
             position: 'left',
-            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/docs/category/data-structures',
+            label: 'DS',
+            position: 'left',
+          },
+          {
+            to: '/docs/category/algorithms',
+            label: 'Algorithms',
+            position: 'left',
+          },
+          {
+            to: '/docs/category/patterns',
+            label: 'Patterns',
+            position: 'left',
+          },
+          {
+            href: '/blog', 
+            label: 'Blog', 
+            position: 'right'
+          },
           {
             href: 'https://github.com/dbasusarkar',
             label: 'GitHub',
@@ -94,20 +161,24 @@ const config = {
             title: 'Internal Links',
             items: [
               {
+                label: 'Big O',
+                to: '/docs/category/big-o-notation',
+              },
+              {
                 label: 'Data Structures',
-                to: '/docs/intro',
+                to: '/docs/category/data-structures',
               },
               {
                 label: 'Algorithms',
-                to: '/docs/intro',
+                to: '/docs/category/algorithms',
               },
               {
                 label: 'Patterns',
-                to: '/docs/intro',
+                to: '/docs/category/patterns',
               },
-              {
-                label: 'Solved Problems',
-                to: '/docs/intro',
+              {  
+                label: 'Blog', 
+                href: '/blog',
               },
             ],
           },
@@ -144,10 +215,6 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Debajyoti Basu Sarkar. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
     }),
 };

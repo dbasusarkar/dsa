@@ -1,0 +1,26 @@
+{
+  "unversionedId": "archived_tutorial-basics/congratulations",
+  "id": "archived_tutorial-basics/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/archived_tutorial-basics/congratulations.md",
+  "sourceDirName": "archived_tutorial-basics",
+  "slug": "/archived_tutorial-basics/congratulations",
+  "permalink": "/dsa/docs/archived_tutorial-basics/congratulations",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/dsa/docs/archived_tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/dsa/docs/category/tutorial---basics-1"
+  }
+}

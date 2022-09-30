@@ -1,0 +1,16 @@
+{
+  "title": "Hash Set",
+  "description": "Everything about arrays.",
+  "slug": "/category/hash-set",
+  "permalink": "/dsa/docs/category/hash-set",
+  "navigation": {
+    "previous": {
+      "title": "Markdown Features",
+      "permalink": "/dsa/docs/data-structures/z-more-data"
+    },
+    "next": {
+      "title": "Problem 01: Two Sum",
+      "permalink": "/dsa/docs/e-hash-set/hash-set-problems"
+    }
+  }
+}

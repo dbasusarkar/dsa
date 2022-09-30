@@ -1,0 +1,26 @@
+{
+  "unversionedId": "big-o/big-o-ds",
+  "id": "big-o/big-o-ds",
+  "title": "Big O—Popular Data Structures",
+  "description": "Table below shows the average time complexities related to different operations for different data structures. Also, it includes corresponding (worst) space complexities.",
+  "source": "@site/docs/big-o/big-o-ds.md",
+  "sourceDirName": "big-o",
+  "slug": "/big-o/big-o-ds",
+  "permalink": "/dsa/docs/big-o/big-o-ds",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Big O Notation",
+    "permalink": "/dsa/docs/big-o/big-o-intro"
+  },
+  "next": {
+    "title": "Big O—Popular Algorithms",
+    "permalink": "/dsa/docs/big-o/big-o-algo"
+  }
+}

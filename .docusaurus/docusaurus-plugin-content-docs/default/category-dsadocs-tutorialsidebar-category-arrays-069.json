@@ -1,0 +1,16 @@
+{
+  "title": "Arrays",
+  "description": "Everything about arrays.",
+  "slug": "/category/arrays",
+  "permalink": "/dsa/docs/category/arrays",
+  "navigation": {
+    "previous": {
+      "title": "Problem 01: Two Sum",
+      "permalink": "/dsa/docs/e-hash-set/hash-set-problems"
+    },
+    "next": {
+      "title": "Problem 01: Two Sum",
+      "permalink": "/dsa/docs/a-arrays/array-problems"
+    }
+  }
+}

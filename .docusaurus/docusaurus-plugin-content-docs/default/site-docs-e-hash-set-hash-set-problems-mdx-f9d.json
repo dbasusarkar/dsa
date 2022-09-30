@@ -1,0 +1,26 @@
+{
+  "unversionedId": "e-hash-set/hash-set-problems",
+  "id": "e-hash-set/hash-set-problems",
+  "title": "Problem 01: Two Sum",
+  "description": "Problem Statement: LC 1 - Two Sum",
+  "source": "@site/docs/e-hash-set/hash-set-problems.mdx",
+  "sourceDirName": "e-hash-set",
+  "slug": "/e-hash-set/hash-set-problems",
+  "permalink": "/dsa/docs/e-hash-set/hash-set-problems",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hash Set",
+    "permalink": "/dsa/docs/category/hash-set"
+  },
+  "next": {
+    "title": "Arrays",
+    "permalink": "/dsa/docs/category/arrays"
+  }
+}

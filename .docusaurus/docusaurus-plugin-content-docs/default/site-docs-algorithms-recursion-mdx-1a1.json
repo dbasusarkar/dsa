@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms/recursion",
+  "id": "algorithms/recursion",
+  "title": "Recursion",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/algorithms/recursion.mdx",
+  "sourceDirName": "algorithms",
+  "slug": "/algorithms/recursion",
+  "permalink": "/dsa/docs/algorithms/recursion",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Binary Search",
+    "permalink": "/dsa/docs/algorithms/binary-search"
+  },
+  "next": {
+    "title": "Patterns",
+    "permalink": "/dsa/docs/category/patterns"
+  }
+}

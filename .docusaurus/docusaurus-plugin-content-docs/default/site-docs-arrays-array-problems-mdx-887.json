@@ -1,0 +1,26 @@
+{
+  "unversionedId": "arrays/array-problems",
+  "id": "arrays/array-problems",
+  "title": "Problem 01: Two Sum",
+  "description": "Problem Statement: LC 1 - Two Sum",
+  "source": "@site/docs/arrays/array-problems.mdx",
+  "sourceDirName": "arrays",
+  "slug": "/arrays/array-problems",
+  "permalink": "/dsa/docs/arrays/array-problems",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Arrays",
+    "permalink": "/dsa/docs/category/arrays"
+  },
+  "next": {
+    "title": "Hash Set",
+    "permalink": "/dsa/docs/category/hash-set"
+  }
+}

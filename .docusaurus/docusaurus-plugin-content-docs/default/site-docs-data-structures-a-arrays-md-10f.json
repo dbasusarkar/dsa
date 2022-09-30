@@ -1,0 +1,34 @@
+{
+  "unversionedId": "data-structures/a-arrays",
+  "id": "data-structures/a-arrays",
+  "title": "Arrays",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/data-structures/a-arrays.md",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/a-arrays",
+  "permalink": "/dsa/docs/data-structures/a-arrays",
+  "draft": false,
+  "tags": [
+    {
+      "label": "two-sum",
+      "permalink": "/dsa/docs/tags/two-sum"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "tags": [
+      "two-sum"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Structures",
+    "permalink": "/dsa/docs/category/data-structures"
+  },
+  "next": {
+    "title": "Strings",
+    "permalink": "/dsa/docs/data-structures/b-strings"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "patterns/c-two-pointers",
+  "id": "patterns/c-two-pointers",
+  "title": "Two Pointers",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/patterns/c-two-pointers.mdx",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/c-two-pointers",
+  "permalink": "/dsa/docs/patterns/c-two-pointers",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cyclic Sort",
+    "permalink": "/dsa/docs/patterns/d-cyclic-sort"
+  },
+  "next": {
+    "title": "Dynamic Programming",
+    "permalink": "/dsa/docs/patterns/dp"
+  }
+}

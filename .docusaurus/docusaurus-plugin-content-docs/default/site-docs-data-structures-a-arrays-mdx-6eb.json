@@ -1,0 +1,22 @@
+{
+  "unversionedId": "data-structures/a-arrays",
+  "id": "data-structures/a-arrays",
+  "title": "Arrays",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/data-structures/a-arrays.mdx",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/a-arrays",
+  "permalink": "/dsa/docs/data-structures/a-arrays",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/dsa/docs/tutorial-extras/translate-your-site"
+  }
+}

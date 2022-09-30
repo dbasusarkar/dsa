@@ -1,0 +1,26 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Solved Problems",
+  "description": "",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/dsa/docs/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Big O—Popular Algorithms",
+    "permalink": "/dsa/docs/big-o/big-o-algo"
+  },
+  "next": {
+    "title": "Data Structures",
+    "permalink": "/dsa/docs/category/data-structures"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Patterns",
+  "description": "Popular patterns and techniques.",
+  "slug": "/category/patterns",
+  "permalink": "/dsa/docs/category/patterns",
+  "navigation": {
+    "previous": {
+      "title": "Recursion",
+      "permalink": "/dsa/docs/algorithms/recursion"
+    },
+    "next": {
+      "title": "Solved Problems",
+      "permalink": "/dsa/docs/patterns/a-sliding-window"
+    }
+  }
+}

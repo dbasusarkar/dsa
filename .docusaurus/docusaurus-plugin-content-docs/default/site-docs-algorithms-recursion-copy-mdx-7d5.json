@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms/recursion copy",
+  "id": "algorithms/recursion copy",
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/algorithms/recursion copy.mdx",
+  "sourceDirName": "algorithms",
+  "slug": "/algorithms/recursion copy",
+  "permalink": "/dsa/docs/algorithms/recursion copy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algorithms",
+    "permalink": "/dsa/docs/category/algorithms"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/dsa/docs/algorithms/recursion"
+  }
+}

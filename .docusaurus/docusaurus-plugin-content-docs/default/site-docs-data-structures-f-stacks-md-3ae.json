@@ -1,0 +1,34 @@
+{
+  "unversionedId": "data-structures/f-stacks",
+  "id": "data-structures/f-stacks",
+  "title": "Stacks",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/data-structures/f-stacks.md",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/f-stacks",
+  "permalink": "/dsa/docs/data-structures/f-stacks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "two-sum",
+      "permalink": "/dsa/docs/tags/two-sum"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "tags": [
+      "two-sum"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hash Set",
+    "permalink": "/dsa/docs/data-structures/e-hash-set"
+  },
+  "next": {
+    "title": "Queues",
+    "permalink": "/dsa/docs/data-structures/g-queues"
+  }
+}

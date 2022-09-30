@@ -1,0 +1,23 @@
+{
+  "unversionedId": "patterns/dp copy 3",
+  "id": "patterns/dp copy 3",
+  "title": "dp copy 3",
+  "description": "",
+  "source": "@site/docs/patterns/dp copy 3.mdx",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/dp copy 3",
+  "permalink": "/dsa/docs/patterns/dp copy 3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dp copy 2",
+    "permalink": "/dsa/docs/patterns/dp copy 2"
+  },
+  "next": {
+    "title": "Solved Problems",
+    "permalink": "/dsa/docs/category/solved-problems"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial - Extras",
+  "slug": "/category/tutorial---extras",
+  "permalink": "/dsa/docs/category/tutorial---extras",
+  "navigation": {
+    "previous": {
+      "title": "Markdown Features",
+      "permalink": "/dsa/docs/data-structures/z-more-data"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/dsa/docs/tutorial-extras/manage-docs-versions"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "inro",
+  "id": "inro",
+  "title": "Solved Problems",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/inro.md",
+  "sourceDirName": ".",
+  "slug": "/inro",
+  "permalink": "/dsa/docs/inro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/dsa/docs/category/tutorial---basics"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "big-o/big-o-algo",
+  "id": "big-o/big-o-algo",
+  "title": "Big O—Popular Algorithms",
+  "description": "Sorting Algorithms",
+  "source": "@site/docs/big-o/big-o-algo.md",
+  "sourceDirName": "big-o",
+  "slug": "/big-o/big-o-algo",
+  "permalink": "/dsa/docs/big-o/big-o-algo",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Big O—Popular Data Structures",
+    "permalink": "/dsa/docs/big-o/big-o-ds"
+  },
+  "next": {
+    "title": "Data Structures",
+    "permalink": "/dsa/docs/category/data-structures"
+  }
+}

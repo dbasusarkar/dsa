@@ -1,0 +1,26 @@
+{
+  "unversionedId": "patterns/d-cyclic-sort",
+  "id": "patterns/d-cyclic-sort",
+  "title": "Cyclic Sort",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/patterns/d-cyclic-sort.mdx",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/d-cyclic-sort",
+  "permalink": "/dsa/docs/patterns/d-cyclic-sort",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Solved Problems",
+    "permalink": "/dsa/docs/patterns/a-sliding-window"
+  },
+  "next": {
+    "title": "Two Pointers",
+    "permalink": "/dsa/docs/patterns/c-two-pointers"
+  }
+}

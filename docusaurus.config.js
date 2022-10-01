@@ -77,6 +77,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     // /** @type {import('@docusaurus/theme-live-codeblock').ThemeConfig} */
     ({
+      docs: {
+        sidebar:{
+            hideable: true,
+            autoCollapseCategories:true,
+          },
+      },
       /*
       algolia: {
         // The application ID provided by Algolia

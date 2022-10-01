@@ -39,7 +39,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
       },
-      collapsed: true,
+      // collapsed: true,
       items: [
         'big-o/a-big-o-intro',
         'big-o/b-big-o-ds',
@@ -52,7 +52,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
       },
-      collapsed: true,
+      // collapsed: true,
       items: [
         'data-structures/a-arrays',
         'data-structures/b-strings',  
@@ -73,7 +73,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
       },
-      collapsed: true,
+      // collapsed: true,
       items: [
         'algorithms/a-binary-search',
         'algorithms/b-cyclic-sort',
@@ -86,7 +86,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
       },
-      collapsed: true,
+      // collapsed: true,
       items: [
         'patterns/a-sliding-window',
         'patterns/b-two-pointers',

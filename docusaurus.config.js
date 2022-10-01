@@ -33,7 +33,7 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      /* @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           remarkPlugins: [math],
@@ -74,9 +74,28 @@ const config = {
   // themes: ['@docusaurus/theme-search-algolia'],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    // /** @type {import('@docusaurus/theme-live-codeblock').ThemeConfig} */
+    // @type {import('@docusaurus/preset-classic').ThemeConfig}
+    // @type {import('@docusaurus/theme-live-codeblock').ThemeConfig}
     ({
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:
+      //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      //   backgroundColor: '#D5C4A1',
+      //   textColor: '#282828',
+      //   isCloseable: false,
+      // },
+      // metadata: [
+      //   {
+      //     name: 'twitter:card', 
+      //     content: 'summary'
+      //   },
+      // ],
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       docs: {
         sidebar:{
             hideable: true,
@@ -122,12 +141,17 @@ const config = {
         playgroundPosition: 'bottom',
       },
       navbar: {
+        hideOnScroll: true,
         title: 'Data Structures and Algorithms',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon.ico',
         },
         items: [
+          {
+            type: 'search',
+            position: 'right',
+          },
           {
             to: '/docs/category/big-o-notation',
             label: 'Big O',
@@ -151,7 +175,7 @@ const config = {
           {
             to: '/blog', 
             label: 'Blog', 
-            position: 'right'
+            position: 'left'
           },
           {
             href: 'https://github.com/dbasusarkar',

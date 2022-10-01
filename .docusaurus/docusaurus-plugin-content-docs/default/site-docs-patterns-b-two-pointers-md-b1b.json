@@ -1,0 +1,36 @@
+{
+  "unversionedId": "patterns/b-two-pointers",
+  "id": "patterns/b-two-pointers",
+  "title": "Two Pointers",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/patterns/b-two-pointers.md",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/b-two-pointers",
+  "permalink": "/dsa/docs/patterns/b-two-pointers",
+  "draft": false,
+  "tags": [
+    {
+      "label": "b-two-pointers",
+      "permalink": "/dsa/docs/tags/b-two-pointers"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "b-two-pointers",
+    "title": "Two Pointers",
+    "tags": [
+      "b-two-pointers"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Sliding Window",
+    "permalink": "/dsa/docs/patterns/a-sliding-window"
+  },
+  "next": {
+    "title": "Fast and Slow Pointers",
+    "permalink": "/dsa/docs/patterns/c-fast-and-slow-pointers"
+  }
+}

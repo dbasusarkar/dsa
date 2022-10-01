@@ -1,0 +1,36 @@
+{
+  "unversionedId": "patterns/j-matrices",
+  "id": "patterns/j-matrices",
+  "title": "Matrices",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/patterns/j-matrices.md",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/j-matrices",
+  "permalink": "/dsa/docs/patterns/j-matrices",
+  "draft": false,
+  "tags": [
+    {
+      "label": "matrices",
+      "permalink": "/dsa/docs/tags/matrices"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "id": "j-matrices",
+    "title": "Matrices",
+    "tags": [
+      "matrices"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Dynamic Programming",
+    "permalink": "/dsa/docs/patterns/i-dp"
+  },
+  "next": {
+    "title": "Math",
+    "permalink": "/dsa/docs/patterns/k-math"
+  }
+}

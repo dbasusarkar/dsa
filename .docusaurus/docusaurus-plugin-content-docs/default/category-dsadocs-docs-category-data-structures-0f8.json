@@ -1,0 +1,15 @@
+{
+  "title": "Data Structures",
+  "slug": "/category/data-structures",
+  "permalink": "/dsa/docs/category/data-structures",
+  "navigation": {
+    "previous": {
+      "title": "Big O—Popular Algorithms",
+      "permalink": "/dsa/docs/big-o/c-big-o-algo"
+    },
+    "next": {
+      "title": "Arrays",
+      "permalink": "/dsa/docs/data-structures/a-arrays"
+    }
+  }
+}

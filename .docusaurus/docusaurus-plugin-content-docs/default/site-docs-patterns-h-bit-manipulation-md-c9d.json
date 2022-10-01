@@ -1,0 +1,36 @@
+{
+  "unversionedId": "patterns/h-bit-manipulation",
+  "id": "patterns/h-bit-manipulation",
+  "title": "Bit Manipulation",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/patterns/h-bit-manipulation.md",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/h-bit-manipulation",
+  "permalink": "/dsa/docs/patterns/h-bit-manipulation",
+  "draft": false,
+  "tags": [
+    {
+      "label": "bit-manipulation",
+      "permalink": "/dsa/docs/tags/bit-manipulation"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "id": "h-bit-manipulation",
+    "title": "Bit Manipulation",
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Topological Sorting",
+    "permalink": "/dsa/docs/patterns/g-topological-sorting"
+  },
+  "next": {
+    "title": "Dynamic Programming",
+    "permalink": "/dsa/docs/patterns/i-dp"
+  }
+}

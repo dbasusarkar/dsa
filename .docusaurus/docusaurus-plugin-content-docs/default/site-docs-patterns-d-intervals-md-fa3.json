@@ -1,0 +1,36 @@
+{
+  "unversionedId": "patterns/d-intervals",
+  "id": "patterns/d-intervals",
+  "title": "Intervals",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/patterns/d-intervals.md",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/d-intervals",
+  "permalink": "/dsa/docs/patterns/d-intervals",
+  "draft": false,
+  "tags": [
+    {
+      "label": "intervals",
+      "permalink": "/dsa/docs/tags/intervals"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "d-intervals",
+    "title": "Intervals",
+    "tags": [
+      "intervals"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Fast and Slow Pointers",
+    "permalink": "/dsa/docs/patterns/c-fast-and-slow-pointers"
+  },
+  "next": {
+    "title": "Linked List Reversal",
+    "permalink": "/dsa/docs/patterns/e-linked-list-reversal"
+  }
+}

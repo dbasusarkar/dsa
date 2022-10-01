@@ -1,0 +1,36 @@
+{
+  "unversionedId": "patterns/f-subsets",
+  "id": "patterns/f-subsets",
+  "title": "Subsets",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/patterns/f-subsets.md",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/f-subsets",
+  "permalink": "/dsa/docs/patterns/f-subsets",
+  "draft": false,
+  "tags": [
+    {
+      "label": "f-subsets",
+      "permalink": "/dsa/docs/tags/f-subsets"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "id": "f-subsets",
+    "title": "Subsets",
+    "tags": [
+      "f-subsets"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Linked List Reversal",
+    "permalink": "/dsa/docs/patterns/e-linked-list-reversal"
+  },
+  "next": {
+    "title": "Topological Sorting",
+    "permalink": "/dsa/docs/patterns/g-topological-sorting"
+  }
+}

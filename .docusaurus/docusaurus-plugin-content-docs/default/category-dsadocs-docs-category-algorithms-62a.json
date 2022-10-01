@@ -1,0 +1,15 @@
+{
+  "title": "Algorithms",
+  "slug": "/category/algorithms",
+  "permalink": "/dsa/docs/category/algorithms",
+  "navigation": {
+    "previous": {
+      "title": "Tries",
+      "permalink": "/dsa/docs/data-structures/k-tries"
+    },
+    "next": {
+      "title": "Binary Search",
+      "permalink": "/dsa/docs/algorithms/a-binary-search"
+    }
+  }
+}

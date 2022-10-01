@@ -1,0 +1,36 @@
+{
+  "unversionedId": "patterns/e-linked-list-reversal",
+  "id": "patterns/e-linked-list-reversal",
+  "title": "Linked List Reversal",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/patterns/e-linked-list-reversal.md",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/e-linked-list-reversal",
+  "permalink": "/dsa/docs/patterns/e-linked-list-reversal",
+  "draft": false,
+  "tags": [
+    {
+      "label": "e-linked-list-reversal",
+      "permalink": "/dsa/docs/tags/e-linked-list-reversal"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "id": "e-linked-list-reversal",
+    "title": "Linked List Reversal",
+    "tags": [
+      "e-linked-list-reversal"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Intervals",
+    "permalink": "/dsa/docs/patterns/d-intervals"
+  },
+  "next": {
+    "title": "Subsets",
+    "permalink": "/dsa/docs/patterns/f-subsets"
+  }
+}

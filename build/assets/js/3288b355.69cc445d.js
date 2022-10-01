@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[9886],{3938:s=>{s.exports=JSON.parse('{"title":"Patterns","slug":"/category/patterns","permalink":"/dsa/docs/category/patterns","navigation":{"previous":{"title":"Recursion","permalink":"/dsa/docs/algorithms/c-recursion"},"next":{"title":"Sliding Window","permalink":"/dsa/docs/patterns/a-sliding-window"}}}')}}]);

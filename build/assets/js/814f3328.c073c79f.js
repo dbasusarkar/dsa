@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Tips and Tricks (v0.01)","permalink":"/dsa/blog/some-features"},{"title":"Welcome to Data Structures and Algorithms","permalink":"/dsa/blog/welcome"}]}')}}]);

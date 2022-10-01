@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[2505],{9827:s=>{s.exports=JSON.parse('{"label":"algorithms","permalink":"/dsa/docs/tags/algorithms","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"big-o/c-big-o-algo","title":"Big O\u2014Popular Algorithms","description":"Sorting Algorithms","permalink":"/dsa/docs/big-o/c-big-o-algo"}]}')}}]);

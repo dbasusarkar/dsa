@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
-tags: [two-sum]
+id: a-arrays
+title: Arrays 
+tags: [arrays, two-sum]
 ---
 
 import Tabs from '@theme/Tabs';

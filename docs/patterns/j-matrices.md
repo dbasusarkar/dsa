@@ -1,14 +1,14 @@
 ---
-sidebar_position: 3 
-id: c-linked-lists
-title: Linked Lists
-tags: [linked-lists]
+sidebar_position: 11
+id: j-matrices  
+title: Matrices
+tags: [matrices]
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Linked Lists
+# Matrices
 
 <details> 
 <summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 

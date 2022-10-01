@@ -1,6 +1,8 @@
 ---
 sidebar_position: 10
-tags: [two-sum]
+id: j-graphs
+title: Graphs 
+tags: [graphs]
 ---
 
 import Tabs from '@theme/Tabs';

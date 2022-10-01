@@ -1,19 +1,19 @@
 ---
-sidebar_position: 3 
-id: c-linked-lists
-title: Linked Lists
-tags: [linked-lists]
+sidebar_position: 1 
+id: a-sliding-window 
+title: Sliding Window
+tags: [sliding-window]
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Linked Lists
+# Sliding Window
 
 <details> 
 <summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 
 
-### [See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+### [⁉️ See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 <Tabs>
 <TabItem value="java" label="Java">

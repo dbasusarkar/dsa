@@ -1,6 +1,8 @@
 ---
 sidebar_position: 8
-tags: [two-sum]
+id: h-heaps
+title: Heaps
+tags: [heaps]
 ---
 
 import Tabs from '@theme/Tabs';

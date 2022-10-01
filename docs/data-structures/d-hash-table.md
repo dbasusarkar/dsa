@@ -1,6 +1,8 @@
 ---
 sidebar_position: 4 
-tags: [two-sum]
+id: d-hash-table
+title: Hash Table
+tags: [hash-table]
 ---
 
 import Tabs from '@theme/Tabs';

@@ -1,6 +1,8 @@
 ---
 sidebar_position: 9 
-tags: [two-sum]
+id: i-binary-trees
+title: Binary-trees
+tags: [binary-trees]
 ---
 
 import Tabs from '@theme/Tabs';

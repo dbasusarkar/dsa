@@ -1,6 +1,8 @@
 ---
 sidebar_position: 6
-tags: [two-sum]
+id: f-stacks
+title: Stacks 
+tags: [stacks]
 ---
 
 import Tabs from '@theme/Tabs';

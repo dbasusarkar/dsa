@@ -143,7 +143,7 @@ const config = {
             position: 'left',
           },
           {
-            href: '/blog', 
+            to: '/blog', 
             label: 'Blog', 
             position: 'right'
           },
@@ -162,7 +162,7 @@ const config = {
             items: [
               {
                 label: 'Big O',
-                to: '/docs/category/big-o-notation',
+                to: '/docs/category/big-o-notation', 
               },
               {
                 label: 'Data Structures',
@@ -178,7 +178,7 @@ const config = {
               },
               {  
                 label: 'Blog', 
-                href: '/blog',
+                to: '/blog',
               },
             ],
           },

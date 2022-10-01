@@ -1,6 +1,8 @@
 ---
 sidebar_position: 7
-tags: [two-sum]
+id: g-queues
+title: Queues 
+tags: [queues]
 ---
 
 import Tabs from '@theme/Tabs';

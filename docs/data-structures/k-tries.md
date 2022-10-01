@@ -1,6 +1,8 @@
 ---
 sidebar_position: 11
-tags: [two-sum]
+id: k-tries
+title: Tries
+tags: [tries]
 ---
 
 import Tabs from '@theme/Tabs';

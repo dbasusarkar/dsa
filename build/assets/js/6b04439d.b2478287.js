@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[6673],{2761:s=>{s.exports=JSON.parse('{"label":"heaps","permalink":"/dsa/docs/tags/heaps","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/h-heaps","title":"Heaps","description":"Best Time to Buy and Sell Stocks (Expand/Collapse)","permalink":"/dsa/docs/data-structures/h-heaps"}]}')}}]);

@@ -1,0 +1,14 @@
+{
+  "label": "math",
+  "permalink": "/dsa/docs/tags/math",
+  "allTagsPath": "/dsa/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "patterns/k-math",
+      "title": "Math",
+      "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+      "permalink": "/dsa/docs/patterns/k-math"
+    }
+  ]
+}

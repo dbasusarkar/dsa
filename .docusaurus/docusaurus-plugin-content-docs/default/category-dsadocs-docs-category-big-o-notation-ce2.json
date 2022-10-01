@@ -1,0 +1,11 @@
+{
+  "title": "Big O Notation",
+  "slug": "/category/big-o-notation",
+  "permalink": "/dsa/docs/category/big-o-notation",
+  "navigation": {
+    "next": {
+      "title": "Introduction to Big O Notation",
+      "permalink": "/dsa/docs/big-o/a-big-o-intro"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "unversionedId": "patterns/c-fast-and-slow-pointers",
+  "id": "patterns/c-fast-and-slow-pointers",
+  "title": "Fast and Slow Pointers",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/patterns/c-fast-and-slow-pointers.md",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/c-fast-and-slow-pointers",
+  "permalink": "/dsa/docs/patterns/c-fast-and-slow-pointers",
+  "draft": false,
+  "tags": [
+    {
+      "label": "fast-and-slow-pointers",
+      "permalink": "/dsa/docs/tags/fast-and-slow-pointers"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "c-fast-and-slow-pointers",
+    "title": "Fast and Slow Pointers",
+    "tags": [
+      "fast-and-slow-pointers"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Two Pointers",
+    "permalink": "/dsa/docs/patterns/b-two-pointers"
+  },
+  "next": {
+    "title": "Intervals",
+    "permalink": "/dsa/docs/patterns/d-intervals"
+  }
+}

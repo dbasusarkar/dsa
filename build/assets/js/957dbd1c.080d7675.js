@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[5521],{6906:s=>{s.exports=JSON.parse('{"label":"f-subsets","permalink":"/dsa/docs/tags/f-subsets","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/f-subsets","title":"Subsets","description":"Best Time to Buy and Sell Stocks (Expand/Collapse)","permalink":"/dsa/docs/patterns/f-subsets"}]}')}}]);

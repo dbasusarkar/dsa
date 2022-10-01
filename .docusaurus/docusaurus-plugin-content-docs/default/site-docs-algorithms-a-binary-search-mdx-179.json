@@ -1,0 +1,36 @@
+{
+  "unversionedId": "algorithms/a-binary-search",
+  "id": "algorithms/a-binary-search",
+  "title": "Binary Search",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/algorithms/a-binary-search.mdx",
+  "sourceDirName": "algorithms",
+  "slug": "/algorithms/a-binary-search",
+  "permalink": "/dsa/docs/algorithms/a-binary-search",
+  "draft": false,
+  "tags": [
+    {
+      "label": "binary-search",
+      "permalink": "/dsa/docs/tags/binary-search"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "a-binary-search",
+    "title": "Binary Search",
+    "tags": [
+      "binary-search"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Algorithms",
+    "permalink": "/dsa/docs/category/algorithms"
+  },
+  "next": {
+    "title": "cyclic sort",
+    "permalink": "/dsa/docs/algorithms/b-cyclic-sort"
+  }
+}

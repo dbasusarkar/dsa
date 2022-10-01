@@ -1,0 +1,14 @@
+{
+  "label": "sliding-window",
+  "permalink": "/dsa/docs/tags/sliding-window",
+  "allTagsPath": "/dsa/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "patterns/a-sliding-window",
+      "title": "Sliding Window",
+      "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+      "permalink": "/dsa/docs/patterns/a-sliding-window"
+    }
+  ]
+}

@@ -2,7 +2,20 @@
 sidebar_position: 1
 id: a-arrays
 title: Arrays 
-tags: [arrays, two-sum]
+tags: [
+    arrays, 
+    3sum,
+    best-time-to-buy-and-sell-stocks,
+    combination-sum,
+    container-with-most-water,
+    contains-duplicate,
+    insert-interval,
+    majority-element,
+    merge-intervals,
+    product-of-array-except-self,
+    sort-colors,
+    two-sum,
+    ]
 ---
 
 import Tabs from '@theme/Tabs';

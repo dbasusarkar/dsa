@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
-tags: [two-sum]
+id: b-strings
+title: Strings 
+tags: [strings, two-sum]
 ---
 
 import Tabs from '@theme/Tabs';

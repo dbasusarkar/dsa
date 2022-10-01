@@ -1,19 +1,19 @@
 ---
 sidebar_position: 3 
-id: c-linked-lists
-title: Linked Lists
-tags: [linked-lists]
+id: c-fast-and-slow-pointers 
+title: Fast and Slow Pointers
+tags: [fast-and-slow-pointers]
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Linked Lists
+# Fast and Slow Pointers 
 
 <details> 
 <summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 
 
-### [See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+### [⁉️ See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 <Tabs>
 <TabItem value="java" label="Java">

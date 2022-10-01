@@ -1,525 +1,482 @@
 {
-  "/dsa/__docusaurus/debug-743": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---dsa-docusaurus-debug-9-fb-6f3"
-    }
-  },
-  "/dsa/__docusaurus/debug/config-3fe": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---dsa-docusaurus-debug-9-fb-6f3"
-    }
-  },
-  "/dsa/__docusaurus/debug/content-e12": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---dsa-docusaurus-debug-9-fb-6f3"
-    },
-    "allContent": "allContent---dsa-docusaurus-debug-content-246-bff"
-  },
-  "/dsa/__docusaurus/debug/globalData-167": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---dsa-docusaurus-debug-9-fb-6f3"
-    }
-  },
-  "/dsa/__docusaurus/debug/metadata-09b": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---dsa-docusaurus-debug-9-fb-6f3"
-    }
-  },
-  "/dsa/__docusaurus/debug/registry-26c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---dsa-docusaurus-debug-9-fb-6f3"
-    }
-  },
-  "/dsa/__docusaurus/debug/routes-61f": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---dsa-docusaurus-debug-9-fb-6f3"
-    }
-  },
   "/dsa/blog-7ea": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---dsa-blogcd-1-cf8"
+      "plugin": "cd1338b3"
     },
-    "sidebar": "sidebar---dsa-blog-814-069",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---dsa-blog-92-c-9dc"
+        "content": "92caa433"
       },
       {
-        "content": "content---dsa-blog-8-d-8-3ba"
+        "content": "8d8aa384"
       }
     ],
-    "metadata": "metadata---dsa-blog-0-a-6-f6d"
+    "metadata": "0a6dc3e9"
   },
   "/dsa/blog/archive-251": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---dsa-blogcd-1-cf8"
+      "plugin": "cd1338b3"
     },
-    "archive": "archive---dsa-blog-archive-961-6cc"
+    "archive": "961b356e"
   },
   "/dsa/blog/some-features-bf3": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---dsa-blogcd-1-cf8"
+      "plugin": "cd1338b3"
     },
-    "sidebar": "sidebar---dsa-blog-814-069",
-    "content": "content---dsa-blog-some-features-177-997"
+    "sidebar": "814f3328",
+    "content": "177d2f1b"
   },
   "/dsa/blog/tags-1ca": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---dsa-blogcd-1-cf8"
+      "plugin": "cd1338b3"
     },
-    "sidebar": "sidebar---dsa-blog-814-069",
-    "tags": "tags---dsa-blog-tags-92-d-a6a"
+    "sidebar": "814f3328",
+    "tags": "92d963c9"
   },
   "/dsa/blog/tags/dsa-aed": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---dsa-blogcd-1-cf8"
+      "plugin": "cd1338b3"
     },
-    "sidebar": "sidebar---dsa-blog-814-069",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---dsa-blog-92-c-9dc"
+        "content": "92caa433"
       },
       {
-        "content": "content---dsa-blog-8-d-8-3ba"
+        "content": "8d8aa384"
       }
     ],
-    "tag": "tag---dsa-blog-tags-dsae-70-53b",
-    "listMetadata": "listMetadata---dsa-blog-tags-dsaa-7-c-55b"
+    "tag": "e70e7f7b",
+    "listMetadata": "a7ce38cf"
   },
   "/dsa/blog/tags/features-efe": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---dsa-blogcd-1-cf8"
+      "plugin": "cd1338b3"
     },
-    "sidebar": "sidebar---dsa-blog-814-069",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---dsa-blog-92-c-9dc"
+        "content": "92caa433"
       }
     ],
-    "tag": "tag---dsa-blog-tags-features-01-e-e22",
-    "listMetadata": "listMetadata---dsa-blog-tags-featuresd-9-d-f64"
+    "tag": "01ec86e8",
+    "listMetadata": "d9d034db"
   },
   "/dsa/blog/tags/news-d15": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---dsa-blogcd-1-cf8"
+      "plugin": "cd1338b3"
     },
-    "sidebar": "sidebar---dsa-blog-814-069",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---dsa-blog-8-d-8-3ba"
+        "content": "8d8aa384"
       }
     ],
-    "tag": "tag---dsa-blog-tags-news-60-c-b0c",
-    "listMetadata": "listMetadata---dsa-blog-tags-news-3-fd-d13"
+    "tag": "60c9bd7f",
+    "listMetadata": "3fdb0b01"
   },
   "/dsa/blog/welcome-47d": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---dsa-blogcd-1-cf8"
+      "plugin": "cd1338b3"
     },
-    "sidebar": "sidebar---dsa-blog-814-069",
-    "content": "content---dsa-blog-welcome-975-beb"
+    "sidebar": "814f3328",
+    "content": "97580723"
   },
   "/dsa/docs/tags-7d3": {
-    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
+    "__comp": "3720c009",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tags": "tags---dsa-docs-tags-559-4c5"
+    "tags": "55960ee5"
   },
   "/dsa/docs/tags/algorithms-33c": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-algorithms-108-0a1"
+    "tag": "10834e3e"
   },
   "/dsa/docs/tags/arrays-345": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-arrays-516-91f"
+    "tag": "516af50e"
   },
   "/dsa/docs/tags/b-two-pointers-6a7": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-b-two-pointersa-2-f-013"
+    "tag": "a2fef59a"
   },
   "/dsa/docs/tags/big-o-b2d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-big-ocd-6-cc3"
+    "tag": "cd6cce60"
   },
   "/dsa/docs/tags/binary-search-732": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-binary-search-131-8dc"
+    "tag": "1311d52a"
   },
   "/dsa/docs/tags/binary-trees-65a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-binary-trees-860-dfc"
+    "tag": "860245be"
   },
   "/dsa/docs/tags/bit-manipulation-4d1": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-bit-manipulation-7-a-9-e9c"
+    "tag": "7a9be650"
   },
   "/dsa/docs/tags/cyclic-sort-b73": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-cyclic-sortb-8-f-ff8"
+    "tag": "b8f8a86e"
   },
   "/dsa/docs/tags/data-structures-05f": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-data-structures-848-f7f"
+    "tag": "8483a922"
   },
   "/dsa/docs/tags/dp-004": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-dp-0-b-5-6fd"
+    "tag": "0b570a74"
   },
   "/dsa/docs/tags/e-linked-list-reversal-f0d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-e-linked-list-reversal-041-ead"
+    "tag": "0419ee32"
   },
   "/dsa/docs/tags/f-subsets-09d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-f-subsets-957-3b3"
+    "tag": "957dbd1c"
   },
   "/dsa/docs/tags/fast-and-slow-pointers-243": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-fast-and-slow-pointersa-8-b-e19"
+    "tag": "a8bd2fb2"
   },
   "/dsa/docs/tags/geometry-535": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-geometry-37-c-e1f"
+    "tag": "37c1bd7e"
   },
   "/dsa/docs/tags/graphs-c69": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-graphsd-2-b-c71"
+    "tag": "d2be8195"
   },
   "/dsa/docs/tags/hash-set-5d6": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-hash-setf-53-cd6"
+    "tag": "f53e0efe"
   },
   "/dsa/docs/tags/hash-table-327": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-hash-tabled-55-8bf"
+    "tag": "d5531ec5"
   },
   "/dsa/docs/tags/heaps-0d5": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-heaps-6-b-0-168"
+    "tag": "6b04439d"
   },
   "/dsa/docs/tags/intervals-6ea": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-intervalsec-9-74a"
+    "tag": "ec97fdfa"
   },
   "/dsa/docs/tags/intro-f51": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-intro-255-a5e"
+    "tag": "2555dba5"
   },
   "/dsa/docs/tags/linked-lists-ddb": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-linked-lists-9-ed-222"
+    "tag": "9ed0c256"
   },
   "/dsa/docs/tags/math-4bd": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-math-0-b-4-868"
+    "tag": "0b469c47"
   },
   "/dsa/docs/tags/matrices-abb": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-matricesda-9-713"
+    "tag": "da9b4fb3"
   },
   "/dsa/docs/tags/queues-9af": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-queues-30-d-c57"
+    "tag": "30d96063"
   },
   "/dsa/docs/tags/recursion-1ab": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-recursion-094-27a"
+    "tag": "0940ef60"
   },
   "/dsa/docs/tags/sliding-window-c34": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-sliding-window-265-943"
+    "tag": "2659832b"
   },
   "/dsa/docs/tags/solved-problems-74a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-solved-problems-630-6fd"
+    "tag": "630d9530"
   },
   "/dsa/docs/tags/stacks-d8c": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-stacks-3-d-4-61e"
+    "tag": "3d45f926"
   },
   "/dsa/docs/tags/strings-b1a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-strings-775-de3"
+    "tag": "7757658d"
   },
   "/dsa/docs/tags/topological-sorting-ab4": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-topological-sortingbba-1d3"
+    "tag": "bbae5325"
   },
   "/dsa/docs/tags/tries-303": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-tries-11-f-f97"
+    "tag": "11f1f5fc"
   },
   "/dsa/docs/tags/two-sum-afd": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__comp": "df203c0f",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "tag": "tag---dsa-docs-tags-two-sum-217-28a"
+    "tag": "217d5635"
   },
   "/dsa/markdown-page-c92": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---dsa-markdown-pageb-53-333"
+      "plugin": "b53f932d"
     },
-    "content": "content---dsa-markdown-page-393-fe8"
+    "content": "393be207"
   },
   "/dsa/docs-d54": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---dsa-docs-tagsee-3-80f"
+      "plugin": "ee3edf35"
     },
-    "versionMetadata": "versionMetadata---dsa-docs-935-c71"
+    "versionMetadata": "935f2afb"
   },
   "/dsa/docs/algorithms/a-binary-search-a90": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-algorithms-a-binary-search-179-e6e"
+    "__comp": "17896441",
+    "content": "1798d334"
   },
   "/dsa/docs/algorithms/b-cyclic-sort-b55": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-algorithms-b-cyclic-sortcd-1-f8d"
+    "__comp": "17896441",
+    "content": "cd1e5d78"
   },
   "/dsa/docs/algorithms/c-recursion-90f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-algorithms-c-recursionafa-8e7"
+    "__comp": "17896441",
+    "content": "afa2b492"
   },
   "/dsa/docs/big-o/a-big-o-intro-3a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-big-o-a-big-o-intro-7-e-5-70a"
+    "__comp": "17896441",
+    "content": "7e5c90fd"
   },
   "/dsa/docs/big-o/b-big-o-ds-3a6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-big-o-b-big-o-ds-214-abe"
+    "__comp": "17896441",
+    "content": "214c3238"
   },
   "/dsa/docs/big-o/c-big-o-algo-002": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-big-o-c-big-o-algo-738-617"
+    "__comp": "17896441",
+    "content": "7389fcd2"
   },
   "/dsa/docs/category/algorithms-4a7": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---dsa-docs-category-algorithms-6-c-0-aca"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "6c050b87"
   },
   "/dsa/docs/category/big-o-notation-106": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---dsa-docs-category-big-o-notation-97-a-837"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "97a048cf"
   },
   "/dsa/docs/category/data-structures-cdd": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---dsa-docs-category-data-structures-6-fa-bb3"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "6fa2b474"
   },
   "/dsa/docs/category/patterns-30d": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---dsa-docs-category-patterns-328-121"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "3288b355"
   },
   "/dsa/docs/data-structures/a-arrays-4ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-a-arrays-10-f-88f"
+    "__comp": "17896441",
+    "content": "10f8c402"
   },
   "/dsa/docs/data-structures/b-strings-e4c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-b-strings-6-bf-d37"
+    "__comp": "17896441",
+    "content": "6bfbe0c6"
   },
   "/dsa/docs/data-structures/c-linked-lists-8df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-c-linked-lists-7-d-0-97b"
+    "__comp": "17896441",
+    "content": "7d087b07"
   },
   "/dsa/docs/data-structures/d-hash-table-5ff": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-d-hash-table-2-b-6-061"
+    "__comp": "17896441",
+    "content": "2b66f623"
   },
   "/dsa/docs/data-structures/e-hash-set-0d5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-e-hash-setf-1-e-a4c"
+    "__comp": "17896441",
+    "content": "f1e28905"
   },
   "/dsa/docs/data-structures/f-stacks-fb0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-f-stacks-3-ae-47a"
+    "__comp": "17896441",
+    "content": "3ae4ab60"
   },
   "/dsa/docs/data-structures/g-queues-7c9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-g-queues-15-b-d6a"
+    "__comp": "17896441",
+    "content": "15b074d4"
   },
   "/dsa/docs/data-structures/h-heaps-e5c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-h-heaps-8-fd-1f6"
+    "__comp": "17896441",
+    "content": "8fd214de"
   },
   "/dsa/docs/data-structures/i-binary-trees-037": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-i-binary-trees-35-d-dca"
+    "__comp": "17896441",
+    "content": "35d10f69"
   },
   "/dsa/docs/data-structures/j-graphs-519": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-j-graphs-69-a-9b2"
+    "__comp": "17896441",
+    "content": "69afaff5"
   },
   "/dsa/docs/data-structures/k-tries-314": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-data-structures-k-tries-340-12e"
+    "__comp": "17896441",
+    "content": "3400adb2"
   },
   "/dsa/docs/patterns/a-sliding-window-1a6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-a-sliding-windowaa-1-95d"
+    "__comp": "17896441",
+    "content": "aa1aafd1"
   },
   "/dsa/docs/patterns/b-two-pointers-0c0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-b-two-pointersb-1-b-1eb"
+    "__comp": "17896441",
+    "content": "b1b22615"
   },
   "/dsa/docs/patterns/c-fast-and-slow-pointers-06c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-c-fast-and-slow-pointers-934-27c"
+    "__comp": "17896441",
+    "content": "934e4cdd"
   },
   "/dsa/docs/patterns/d-intervals-c84": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-d-intervalsfa-3-7b2"
+    "__comp": "17896441",
+    "content": "fa3ffa81"
   },
   "/dsa/docs/patterns/e-linked-list-reversal-ea9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-e-linked-list-reversal-123-bc2"
+    "__comp": "17896441",
+    "content": "1233f7d4"
   },
   "/dsa/docs/patterns/f-subsets-4bc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-f-subsets-6-be-285"
+    "__comp": "17896441",
+    "content": "6be51e80"
   },
   "/dsa/docs/patterns/g-topological-sorting-d0d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-g-topological-sortingc-2-f-836"
+    "__comp": "17896441",
+    "content": "c2fe7bdb"
   },
   "/dsa/docs/patterns/h-bit-manipulation-568": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-h-bit-manipulationc-9-d-1d5"
+    "__comp": "17896441",
+    "content": "c9d67b91"
   },
   "/dsa/docs/patterns/i-dp-008": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-i-dp-485-4c2"
+    "__comp": "17896441",
+    "content": "485dfdf1"
   },
   "/dsa/docs/patterns/j-matrices-91e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-j-matricesd-85-ab3"
+    "__comp": "17896441",
+    "content": "d8542971"
   },
   "/dsa/docs/patterns/k-math-8e9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-k-math-258-9b3"
+    "__comp": "17896441",
+    "content": "258661c1"
   },
   "/dsa/docs/patterns/l-geometry-cb1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-patterns-l-geometry-82-d-602"
+    "__comp": "17896441",
+    "content": "82df2093"
   },
   "/dsa/docs/solved-problems-017": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dsa-docs-solved-problems-5-cc-b6c"
+    "__comp": "17896441",
+    "content": "5cc7c639"
   },
   "/dsa/-2a9": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---dsa-markdown-pageb-53-333"
+      "plugin": "b53f932d"
     },
-    "config": "config---dsa-5-e-9-2f6"
+    "config": "5e9f5e1a"
   }
 }

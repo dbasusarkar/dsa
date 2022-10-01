@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[8172],{2707:t=>{t.exports=JSON.parse('{"title":"Big O Notation","slug":"/category/big-o-notation","permalink":"/dsa/docs/category/big-o-notation","navigation":{"next":{"title":"Introduction to Big O Notation","permalink":"/dsa/docs/big-o/a-big-o-intro"}}}')}}]);

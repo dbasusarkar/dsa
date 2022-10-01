@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 <details> 
 <summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 
 
-### [⁉️ See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+### [↗ See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 <Tabs>
 <TabItem value="java" label="Java">

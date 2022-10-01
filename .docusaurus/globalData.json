@@ -1,0 +1,198 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/dsa/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/dsa/docs",
+          "mainDocId": "big-o/a-big-o-intro",
+          "docs": [
+            {
+              "id": "algorithms/a-binary-search",
+              "path": "/dsa/docs/algorithms/a-binary-search",
+              "sidebar": "docs"
+            },
+            {
+              "id": "algorithms/b-cyclic-sort",
+              "path": "/dsa/docs/algorithms/b-cyclic-sort",
+              "sidebar": "docs"
+            },
+            {
+              "id": "algorithms/c-recursion",
+              "path": "/dsa/docs/algorithms/c-recursion",
+              "sidebar": "docs"
+            },
+            {
+              "id": "big-o/a-big-o-intro",
+              "path": "/dsa/docs/big-o/a-big-o-intro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "big-o/b-big-o-ds",
+              "path": "/dsa/docs/big-o/b-big-o-ds",
+              "sidebar": "docs"
+            },
+            {
+              "id": "big-o/c-big-o-algo",
+              "path": "/dsa/docs/big-o/c-big-o-algo",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/a-arrays",
+              "path": "/dsa/docs/data-structures/a-arrays",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/b-strings",
+              "path": "/dsa/docs/data-structures/b-strings",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/c-linked-lists",
+              "path": "/dsa/docs/data-structures/c-linked-lists",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/d-hash-table",
+              "path": "/dsa/docs/data-structures/d-hash-table",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/e-hash-set",
+              "path": "/dsa/docs/data-structures/e-hash-set",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/f-stacks",
+              "path": "/dsa/docs/data-structures/f-stacks",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/g-queues",
+              "path": "/dsa/docs/data-structures/g-queues",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/h-heaps",
+              "path": "/dsa/docs/data-structures/h-heaps",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/i-binary-trees",
+              "path": "/dsa/docs/data-structures/i-binary-trees",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/j-graphs",
+              "path": "/dsa/docs/data-structures/j-graphs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "data-structures/k-tries",
+              "path": "/dsa/docs/data-structures/k-tries",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/a-sliding-window",
+              "path": "/dsa/docs/patterns/a-sliding-window",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/b-two-pointers",
+              "path": "/dsa/docs/patterns/b-two-pointers",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/c-fast-and-slow-pointers",
+              "path": "/dsa/docs/patterns/c-fast-and-slow-pointers",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/d-intervals",
+              "path": "/dsa/docs/patterns/d-intervals",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/e-linked-list-reversal",
+              "path": "/dsa/docs/patterns/e-linked-list-reversal",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/f-subsets",
+              "path": "/dsa/docs/patterns/f-subsets",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/g-topological-sorting",
+              "path": "/dsa/docs/patterns/g-topological-sorting",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/h-bit-manipulation",
+              "path": "/dsa/docs/patterns/h-bit-manipulation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/i-dp",
+              "path": "/dsa/docs/patterns/i-dp",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/j-matrices",
+              "path": "/dsa/docs/patterns/j-matrices",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/k-math",
+              "path": "/dsa/docs/patterns/k-math",
+              "sidebar": "docs"
+            },
+            {
+              "id": "patterns/l-geometry",
+              "path": "/dsa/docs/patterns/l-geometry",
+              "sidebar": "docs"
+            },
+            {
+              "id": "solved-problems",
+              "path": "/dsa/docs/solved-problems",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/big-o-notation",
+              "path": "/dsa/docs/category/big-o-notation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/data-structures",
+              "path": "/dsa/docs/category/data-structures",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/algorithms",
+              "path": "/dsa/docs/category/algorithms",
+              "sidebar": "docs"
+            },
+            {
+              "id": "/category/patterns",
+              "path": "/dsa/docs/category/patterns",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/dsa/docs/category/big-o-notation",
+                "label": "Big O Notation"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

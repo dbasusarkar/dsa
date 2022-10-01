@@ -1,0 +1,36 @@
+{
+  "unversionedId": "data-structures/k-tries",
+  "id": "data-structures/k-tries",
+  "title": "Tries",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/data-structures/k-tries.md",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/k-tries",
+  "permalink": "/dsa/docs/data-structures/k-tries",
+  "draft": false,
+  "tags": [
+    {
+      "label": "tries",
+      "permalink": "/dsa/docs/tags/tries"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "id": "k-tries",
+    "title": "Tries",
+    "tags": [
+      "tries"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Graphs",
+    "permalink": "/dsa/docs/data-structures/j-graphs"
+  },
+  "next": {
+    "title": "Algorithms",
+    "permalink": "/dsa/docs/category/algorithms"
+  }
+}

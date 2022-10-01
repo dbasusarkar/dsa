@@ -1,0 +1,36 @@
+{
+  "unversionedId": "data-structures/d-hash-table",
+  "id": "data-structures/d-hash-table",
+  "title": "Hash Table",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/data-structures/d-hash-table.md",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/d-hash-table",
+  "permalink": "/dsa/docs/data-structures/d-hash-table",
+  "draft": false,
+  "tags": [
+    {
+      "label": "hash-table",
+      "permalink": "/dsa/docs/tags/hash-table"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "d-hash-table",
+    "title": "Hash Table",
+    "tags": [
+      "hash-table"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Linked Lists",
+    "permalink": "/dsa/docs/data-structures/c-linked-lists"
+  },
+  "next": {
+    "title": "Hash Set",
+    "permalink": "/dsa/docs/data-structures/e-hash-set"
+  }
+}

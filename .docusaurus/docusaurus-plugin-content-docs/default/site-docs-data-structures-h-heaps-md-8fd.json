@@ -1,0 +1,36 @@
+{
+  "unversionedId": "data-structures/h-heaps",
+  "id": "data-structures/h-heaps",
+  "title": "Heaps",
+  "description": "Best Time to Buy and Sell Stocks (Expand/Collapse)",
+  "source": "@site/docs/data-structures/h-heaps.md",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/h-heaps",
+  "permalink": "/dsa/docs/data-structures/h-heaps",
+  "draft": false,
+  "tags": [
+    {
+      "label": "heaps",
+      "permalink": "/dsa/docs/tags/heaps"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "id": "h-heaps",
+    "title": "Heaps",
+    "tags": [
+      "heaps"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Queues",
+    "permalink": "/dsa/docs/data-structures/g-queues"
+  },
+  "next": {
+    "title": "Binary-trees",
+    "permalink": "/dsa/docs/data-structures/i-binary-trees"
+  }
+}

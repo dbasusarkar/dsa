@@ -22,6 +22,7 @@ import TabItem from '@theme/TabItem';
 
 - Understanding strings 
 - Solved problems are presented in alphabetical order
+
 ## Problems related to strings 
 
 <details> 

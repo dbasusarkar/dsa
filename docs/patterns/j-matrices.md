@@ -4,6 +4,7 @@ id: j-matrices
 title: Matrices
 tags: [
     matrices,
+    flood-fill,
     spiral-matrix,    
 ]
 ---
@@ -17,6 +18,27 @@ import TabItem from '@theme/TabItem';
 - Solved problems are presented in alphabetical order
 
 ## Problems related to matrices 
+
+<details> 
+<summary> Flood Fill (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #733](https://leetcode.com/problems/flood-fill/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
 
 <details> 
 <summary> Spiral Matrix (Expand/Collapse) </summary> 

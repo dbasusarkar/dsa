@@ -1,6 +1,13 @@
 # Data Structures and Algorithms 
 
-[](./static/img/ds-web-dark.png)
+## Dark Color Mode
 
-[](./static/img/ds-web-light.png)
+<p align='center'>
+    <img width = "600" height = "440" src ="/static/img/ds-web-dark.png">
+</p>
 
+## Light Color Mode
+
+<p align='center'>
+    <img width = "600" height = "440" src ="/static/img/ds-web-light.png">
+</p>

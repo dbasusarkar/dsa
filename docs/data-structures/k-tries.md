@@ -2,7 +2,11 @@
 sidebar_position: 11
 id: k-tries
 title: Tries
-tags: [tries]
+tags: [
+    tries,
+    implement-trie-prefix-tree,
+    word-break,
+]
 ---
 
 import Tabs from '@theme/Tabs';

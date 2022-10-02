@@ -2,7 +2,10 @@
 sidebar_position: 7
 id: g-queues
 title: Queues 
-tags: [queues]
+tags: [
+    queues,
+    design-hit-counter,    
+]
 ---
 
 import Tabs from '@theme/Tabs';

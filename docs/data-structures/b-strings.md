@@ -2,13 +2,27 @@
 sidebar_position: 2
 id: b-strings
 title: Strings 
-tags: [strings, two-sum]
+tags: [
+    strings, 
+    find-all-anagrams-in-a-string,
+    longest-palindrome,
+    longest-palindromic-substring, 
+    longest-substring-without-repeating-characters, 
+    minimum-window-substring
+    string-to-integer-atoi,
+    valid-anagram,
+    valid-palindrome,
+]
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Strings
+
+- Understanding strings 
+- Solved problems are presented in alphabetical order
+## Problems related to strings 
 
 <details> 
 <summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 

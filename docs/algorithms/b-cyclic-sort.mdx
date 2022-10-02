@@ -1,9 +1,11 @@
 ---
 sidebar_position: 2 
 id: b-cyclic-sort
-title: cyclic sort
+title: Cyclic sort
 tags:
   - cyclic-sort 
+  - missing-number
+  - separate-1s-and-0s
 ---
 
 import Tabs from '@theme/Tabs';
@@ -11,20 +13,62 @@ import TabItem from '@theme/TabItem';
 
 # Cyclic Sort 
 
-<details> 
-<summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 
+- Understanding cyclic sort
+- Solved problems are presented in alphabetical order
 
-### [⁉️ See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+## Problems related to cyclic sort 
+
+<details> 
+<summary>  Missing Number (Expand/Collapse) </summary> 
+
+### [️↗ See LeetCode Problem #268](https://leetcode.com/problems/missing-number/)
 
 <Tabs>
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
+    //  Solved using the binary approach
+    //  Cyclic sorting can/will be added at a later time
+    static int missingNumber(int[] nums) {
+
+        //  nums.length will always be in the given array
+        //      but it won't appear as an index in the for loop
+        int missing = nums.length;
+
+        for (int i = 0; i < nums.length; i++) {
+            missing ^= nums[i] ^ i;
+        }
+
+        return missing;
     }
-}
+
+    public static void main(String[] args) {
+
+        // Example 1:
+        int[] nums1 = {3, 0, 1};
+        //  O/P: 2
+
+        // Example 2:
+        int[] nums2 = {0, 1};
+        //  O/P: 2
+
+        // Example 3:
+        int[] nums3 = {9, 6, 4, 2, 3, 5, 7, 0, 1};
+        //  O/P: 8
+
+        // Example 4:
+        int[] nums4 = {2, 0, 3};
+        //  O/P: 2
+        // 3^2^0^0^1^3^2
+
+        System.out.println("Example 1: " + missingNumber(nums1));
+        System.out.println("Example 2: " + missingNumber(nums2));
+        System.out.println("Example 3: " + missingNumber(nums3));
+        System.out.println("Example 4: " + missingNumber(nums4));
+
+    }
+ }
 ```
 
 </TabItem>
@@ -33,319 +77,64 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Contains Duplicate (Expand/Collapse) </summary> 
+<summary> Separate 1s and 0s (Expand/Collapse) </summary> 
 
-### [See LeetCode Problem #217](https://leetcode.com/problems/contains-duplicate/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Insert Interval (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #57](https://leetcode.com/problems/insert-interval/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Majority Element (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #169](https://leetcode.com/problems/majority-element/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Two Sum (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #1](https://leetcode.com/problems/two-sum/)
+### Problem Statement in the Code Block
 
 <Tabs>
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Solution {
 
-//    //  Brute force approach
-//    public int[] twoSum(int[] nums, int target) {
-//        for (int i = 0; i < nums.length; i++) {
-//            for (int j = i + 1; j < nums.length; j++) {
-//                if (nums[j] == target - nums[i]) {
-//                    return new int[]{i, j};
-//              }
-//          }
-//        }
-//        return null;
-//    }
+    /*  Problem Statement:
+    *   Given an array of 0s and 1s in random order. Separate 0s on the
+    *   left side and 1s on right side of the array. 
+    */
 
-    //  O(N) time complexity
-    //  2-pass HashMap
-//      static int[] twoSum(int[] nums, int target) {
-//          Map<Integer, Integer> hmap = new HashMap<>();
-//          for (int i = 0; i < nums.length; i++) {
-//              hmap.put(nums[i], i);
-//          }
-//
-//          for (int i = 0; i < nums.length; i++) {
-//              int complement = target - nums[i];
-//              if (hmap.containsKey(complement) && hmap.get(complement) != i) {
-//                  return new int[] {i, hmap.get(complement)};
-//              }
-//          }
-//          return null;
-//      }
+    public static int[] separate1sAndOs (int[] nums) {
 
-    //  O(N) time complexity
-    //  1-pass HashMap
-    static int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> hmap = new HashMap<>();
+        int zeroIndex = 0;
+        int oneIndex = nums.length - 1;
 
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if (hmap.containsKey(complement)) {
-                return new int[] {hmap.get(complement), i};
+        while (zeroIndex < oneIndex) {
+            if (nums[zeroIndex] == 1) {
+                if (nums[oneIndex] != 1) {
+                    swapElements(nums, zeroIndex, oneIndex);
+                }
+                oneIndex--;
+            } else {
+                zeroIndex++;
             }
-            hmap.put(nums[i], i);
         }
-        return null;
+
+        return nums;
+    }
+
+    private static void swapElements (int[] nums, int index, int newIndex) {
+
+        int tempElement = nums[index];
+        nums[index] = nums[newIndex];
+        nums[newIndex] = tempElement;
+
     }
 
     public static void main(String[] args) {
-        //Output: [0,1]
-        int[] nums1 = {2,7,11,15};
-        int target1 = 9;
 
-        //Output: [1,2]
-        int[] nums2 = {3,2,4};
-        int target2 = 6;
+        int[] array1 = { 0, 1, 0, 1, 1, 1 };
+        int[] array2 = { 0, 1, 0, 1, 1, 1, 0, 0};
+        int[] array3 = {0};
+        int[] array4 = {1};
+        int[] array5 = {};
 
-        //Output: [0,1]
-        int[] nums3 = {3,3};
-        int target3 = 6;
+        System.out.println(Arrays.toString(separate1sAndOs(array1)));
+        System.out.println(Arrays.toString(separate1sAndOs(array2)));
+        System.out.println(Arrays.toString(separate1sAndOs(array3)));
+        System.out.println(Arrays.toString(separate1sAndOs(array4)));
+        System.out.println(Arrays.toString(separate1sAndOs(array5)));
 
-        System.out.println(Arrays.toString(twoSum(nums1, target1)));
-        System.out.println(Arrays.toString(twoSum(nums2, target2)));
-        System.out.println(Arrays.toString(twoSum(nums3, target3)));
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 2 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 3 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 4 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 5 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 6 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 7 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 8 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 9 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
     }
 }
 ```

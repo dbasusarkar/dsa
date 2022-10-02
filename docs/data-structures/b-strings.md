@@ -8,7 +8,7 @@ tags: [
     longest-palindrome,
     longest-palindromic-substring, 
     longest-substring-without-repeating-characters, 
-    minimum-window-substring
+    minimum-window-substring,
     string-to-integer-atoi,
     valid-anagram,
     valid-palindrome,

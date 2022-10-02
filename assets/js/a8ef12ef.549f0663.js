@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[3417],{5053:s=>{s.exports=JSON.parse('{"label":"task-scheduler","permalink":"/dsa/docs/tags/task-scheduler","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/h-heaps","title":"Heaps","description":"- Understanding heaps","permalink":"/dsa/docs/data-structures/h-heaps"}]}')}}]);

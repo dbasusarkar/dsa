@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[4483],{9260:s=>{s.exports=JSON.parse('{"label":"stacks","permalink":"/dsa/docs/tags/stacks","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/f-stacks","title":"Stacks","description":"- Understanding stacks","permalink":"/dsa/docs/data-structures/f-stacks"}]}')}}]);

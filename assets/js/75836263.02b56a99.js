@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[1679],{3226:s=>{s.exports=JSON.parse('{"label":"basic-calculator","permalink":"/dsa/docs/tags/basic-calculator","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/f-stacks","title":"Stacks","description":"- Understanding stacks","permalink":"/dsa/docs/data-structures/f-stacks"}]}')}}]);

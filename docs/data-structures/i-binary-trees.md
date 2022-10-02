@@ -2,7 +2,18 @@
 sidebar_position: 9 
 id: i-binary-trees
 title: Binary-trees
-tags: [binary-trees]
+tags: [
+    binary-trees,
+    balanced-binary-tree,
+    binary-tree-level-order-traversal,
+    diameter-of-binary-tree,
+    maximum-depth-of-binary-tree,
+    invert-binary-tree,
+    same-tree,
+    serialize-and-deserialize-binary-tree,
+    subtree-of-another-tree,
+    symmetric-tree,
+]
 ---
 
 import Tabs from '@theme/Tabs';

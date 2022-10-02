@@ -2,7 +2,16 @@
 sidebar_position: 6
 id: f-stacks
 title: Stacks 
-tags: [stacks]
+tags: [
+    stacks,
+    basic-calculator,
+    evaluate-reverse-polish-notation,
+    implement-queue-using-stacks, 
+    largest_rectangle_in_histogram,
+    min-stack,
+    trapping-rain-water,
+    valid-parentheses,
+]
 ---
 
 import Tabs from '@theme/Tabs';

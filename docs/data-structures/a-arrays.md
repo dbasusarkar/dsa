@@ -15,13 +15,17 @@ tags: [
     product-of-array-except-self,
     sort-colors,
     two-sum,
-    ]
+]
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Arrays
+
+- Understanding arrays
+- Solved problems are presented in alphabetical order
+## Problems related to arrays
 
 <details> 
 <summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 

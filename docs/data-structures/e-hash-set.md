@@ -2,7 +2,10 @@
 sidebar_position: 5
 id: e-hash-set
 title: Hash Set 
-tags: [hash-set]
+tags: [
+    hash-set,
+    word-ladder,
+]
 ---
 
 import Tabs from '@theme/Tabs';

@@ -78,6 +78,8 @@ const sidebars = {
         'algorithms/a-binary-search',
         'algorithms/b-cyclic-sort',
         'algorithms/c-recursion',
+        'algorithms/d-backtracking',
+        'algorithms/e-greedy',
       ],
     },
     {

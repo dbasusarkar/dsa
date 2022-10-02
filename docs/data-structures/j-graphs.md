@@ -2,7 +2,18 @@
 sidebar_position: 10
 id: j-graphs
 title: Graphs 
-tags: [graphs]
+tags: [
+    graphs,
+    accounts-merge,
+    alien-dictionary,
+    clone-graph,
+    course-schedule,
+    flood-fill,
+    number-of-islands,
+    rotting-oranges,
+    word-ladder,
+    01-matrix,
+]
 ---
 
 import Tabs from '@theme/Tabs';

@@ -2,7 +2,14 @@
 sidebar_position: 3 
 id: c-linked-lists
 title: Linked Lists
-tags: [linked-lists]
+tags: [
+    linked-lists,
+    linked-list-cycle,
+    lru-cache
+    merge-two-sorted-lists,
+    middle-of-the-linked-list,
+    reverse-linked-list,
+]
 ---
 
 import Tabs from '@theme/Tabs';

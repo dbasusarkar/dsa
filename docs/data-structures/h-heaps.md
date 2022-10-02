@@ -2,7 +2,13 @@
 sidebar_position: 8
 id: h-heaps
 title: Heaps
-tags: [heaps]
+tags: [
+    heaps,
+    find-median-from-data-stream,
+    k-closest-point-to-origin,
+    merge-k-sorted-lists,
+    task-scheduler,
+]
 ---
 
 import Tabs from '@theme/Tabs';

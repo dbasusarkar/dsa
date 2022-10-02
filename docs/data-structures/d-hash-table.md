@@ -2,7 +2,11 @@
 sidebar_position: 4 
 id: d-hash-table
 title: Hash Table
-tags: [hash-table]
+tags: [
+    hash-table,
+    ransom-note,
+    two-sum,
+]
 ---
 
 import Tabs from '@theme/Tabs';

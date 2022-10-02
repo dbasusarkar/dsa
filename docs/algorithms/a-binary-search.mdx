@@ -4,6 +4,11 @@ id: a-binary-search
 title: Binary Search 
 tags:
 - binary-search 
+- first-bad-version
+- maximum-profit-in-job-scheduling
+- median-of-two-sorted-arrays
+- search-in-rotated-sorted-array
+- time-based-key-value-store
 --- 
 
 import Tabs from '@theme/Tabs';
@@ -11,165 +16,57 @@ import TabItem from '@theme/TabItem';
 
 # Binary Search
 
-<details> 
-<summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 
+- Understanding binary search
+- Solved problems are presented in alphabetical order
 
-### [⁉️ See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+## Problems related to binary search
+
+<details> 
+<summary> Binary Search (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #704](https://leetcode.com/problems/binary-search/)
 
 <Tabs>
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
+    static int search(int[] nums, int target) {
+        int pivot;
+        int left = 0;
+        int right = nums.length - 1;
 
-</TabItem>
-</Tabs>
+        while (left <= right) {
+            pivot = left + (right - left) / 2;
 
-</details>
-
-<details> 
-<summary> Contains Duplicate (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #217](https://leetcode.com/problems/contains-duplicate/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Insert Interval (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #57](https://leetcode.com/problems/insert-interval/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Majority Element (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #169](https://leetcode.com/problems/majority-element/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Two Sum (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #1](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
-public class Solution {
-
-//    //  Brute force approach
-//    public int[] twoSum(int[] nums, int target) {
-//        for (int i = 0; i < nums.length; i++) {
-//            for (int j = i + 1; j < nums.length; j++) {
-//                if (nums[j] == target - nums[i]) {
-//                    return new int[]{i, j};
-//              }
-//          }
-//        }
-//        return null;
-//    }
-
-    //  O(N) time complexity
-    //  2-pass HashMap
-//      static int[] twoSum(int[] nums, int target) {
-//          Map<Integer, Integer> hmap = new HashMap<>();
-//          for (int i = 0; i < nums.length; i++) {
-//              hmap.put(nums[i], i);
-//          }
-//
-//          for (int i = 0; i < nums.length; i++) {
-//              int complement = target - nums[i];
-//              if (hmap.containsKey(complement) && hmap.get(complement) != i) {
-//                  return new int[] {i, hmap.get(complement)};
-//              }
-//          }
-//          return null;
-//      }
-
-    //  O(N) time complexity
-    //  1-pass HashMap
-    static int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> hmap = new HashMap<>();
-
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if (hmap.containsKey(complement)) {
-                return new int[] {hmap.get(complement), i};
+            if (nums[pivot] == target) {
+                return pivot;
             }
-            hmap.put(nums[i], i);
+
+            if (target < nums[pivot]) {
+                right = pivot - 1;
+            } else {
+                left = pivot + 1;
+            }
         }
-        return null;
+
+        return -1;
     }
 
     public static void main(String[] args) {
-        //Output: [0,1]
-        int[] nums1 = {2,7,11,15};
+
+        // Example 1:
+        int[] nums1 = {-1,0,3,5,9,12};
         int target1 = 9;
+        //  O/P: 4
 
-        //Output: [1,2]
-        int[] nums2 = {3,2,4};
-        int target2 = 6;
+        // Example 2:
+        int[] nums2 = {-1,0,3,5,9,12};
+        int target2 = 2;
+        //  O/P: -1
 
-        //Output: [0,1]
-        int[] nums3 = {3,3};
-        int target3 = 6;
-
-        System.out.println(Arrays.toString(twoSum(nums1, target1)));
-        System.out.println(Arrays.toString(twoSum(nums2, target2)));
-        System.out.println(Arrays.toString(twoSum(nums3, target3)));
+        System.out.println(search(nums1, target1));
+        System.out.println(search(nums2, target2));
     }
 }
 ```
@@ -180,10 +77,78 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Problem Name 2 (Expand/Collapse) </summary> 
+<summary> First Bad Version (Expand/Collapse) </summary> 
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #278](https://leetcode.com/problems/first-bad-version/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+//  To make it work outside the LeetCode environment:
+//  Requires the CORRECT implementation of VersionControl class
+//      with boolean isBadVersion(int version) method/API
+
+//  INCORRECT Implementation
+//      so that my IDE doesn't yell at me!!!
+class VersionControl {
+    static boolean isBadVersion (int n) {
+        return true;
+    }
+}
+
+public class Solution extends VersionControl {
+    static int firstBadVersion(int n) {
+
+        int leftIndex = 1;
+        int rightIndex = n;
+
+        while (leftIndex <= rightIndex) {
+
+            int pivotIndex = leftIndex + (rightIndex - leftIndex) / 2;
+
+            //  Not bad version
+            if (!isBadVersion (pivotIndex)) {
+                //  First bad version should be
+                //      on the right side of the pivotIndex
+                leftIndex = pivotIndex + 1;
+            //  Bad version
+            } else {
+                //  First bad version should be
+                //      on the left side of the pivotIndex
+                //  Meaning, pivotIndex < current pivotIndex
+                rightIndex = pivotIndex - 1;
+            }
+        }
+        return leftIndex;
+    }
+
+    public static void main(String[] args) {
+        // Example 1:
+        int n1 = 5;
+        int bad1 = 4;
+        //  O/P: 4
+
+        // Example 2:
+        int n2 = 1;
+        int bad2 = 1;
+        //  O/P: 1
+
+        System.out.println(firstBadVersion(n1));
+        System.out.println(firstBadVersion(n2));
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
+<details> 
+<summary> Maximum Profit in Job Scheduling (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #1235](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 
 <Tabs>
 <TabItem value="java" label="Java">
@@ -202,18 +167,68 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Problem Name 3 (Expand/Collapse) </summary> 
+<summary> Median of Two Sorted Arrays (Expand/Collapse) </summary> 
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #4](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 <Tabs>
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
 public class Solution {
+    static double findMedianSortedArrays(int[] nums1, int[] nums2) {
+
+        if (nums1.length > nums2.length) {
+            return findMedianSortedArrays(nums2, nums1);
+        }
+
+        int[] a = nums1;
+        int[] b = nums2;
+
+        int aLength = a.length;
+        int bLength = b.length;
+
+        // range of a1 cut location: n1 means no right half for a1
+        int l = 0, r = aLength;
+        while (l <= r) {
+            int cut1 = (l + r) / 2; // cut location is counted to right half
+            int cut2 = (aLength + bLength + 1) / 2 - cut1;
+
+            int l1 = cut1 == 0 ? Integer.MIN_VALUE : a[cut1 - 1];
+            int l2 = cut2 == 0 ? Integer.MIN_VALUE : b[cut2 - 1];
+            int r1 = cut1 == aLength ? Integer.MAX_VALUE : a[cut1];
+            int r2 = cut2 == bLength ? Integer.MAX_VALUE : b[cut2];
+
+            if (l1 <= r2 && l2 <= r1) {
+                if ((aLength + bLength) % 2 == 0) {
+                    return ((double) Math.max(l1, l2) + Math.min(r1, r2)) / 2;
+                } else {
+                    return (double) Math.max(l1, l2);
+                }
+            } else if (l1 > r2) {
+                r = cut1 - 1;
+            } else {
+                l = cut1 + 1;
+            }
+        }
+
+        throw new IllegalArgumentException();
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        // Example 1:
+        int[] numsA1 = {1,3};
+        int[] numsA2 = {2};
+        //  O/P: 2.00000
+
+        // Example 2:
+        int[] numsB1 = {1,2};
+        int[] numsB2 = {3,4};
+        //  O/P: 2.50000
+
+        System.out.println(findMedianSortedArrays(numsA1, numsA2));
+        System.out.println(findMedianSortedArrays(numsB1, numsB2));
+
     }
 }
 ```
@@ -224,18 +239,66 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Problem Name 4 (Expand/Collapse) </summary> 
+<summary> Search in Rotated Sorted Array (Expand/Collapse) </summary> 
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #33](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 <Tabs>
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
+    public static int search(int[] nums, int target) {
+
+        int startIndex = 0;
+        int endIndex = nums.length - 1;
+
+        while (startIndex <= endIndex) {
+            int middleIndex = startIndex + (endIndex - startIndex) / 2;
+
+            if (target == nums[middleIndex]) {
+                return middleIndex;
+            }
+
+            if (nums[startIndex] <= nums[middleIndex]) {
+                if (target >= nums[startIndex] && target < nums[middleIndex]) {
+                    endIndex = middleIndex - 1;
+                } else {
+                    startIndex = middleIndex + 1;
+                }
+
+            } else {
+                if (target < nums[startIndex] && target >= nums[middleIndex]) {
+                    startIndex = middleIndex + 1;
+                } else {
+                    endIndex = middleIndex - 1;
+                }
+            }
+        }
+
+        return -1;
+    }
+
+    public static void main (String[] args) {
+
+        // Example 1:
+        int[] nums1 = {4,5,6,7,0,1,2};
+        int target1 = 0;
+        //  O/P: 4
+
+        // Example 2:
+        int[] nums2 = {4,5,6,7,0,1,2};
+        int target2 = 3;
+        //  O/P: -1
+
+        // Example 3:
+        int[] nums3 = {1};
+        int target3 = 0;
+        //  O/P: -1
+
+        System.out.println(search(nums1,target1));
+        System.out.println(search(nums2,target2));
+        System.out.println(search(nums3,target3));
     }
 }
 ```
@@ -246,106 +309,92 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Problem Name 5 (Expand/Collapse) </summary> 
+<summary> Time Based Key Value Store (Expand/Collapse) </summary> 
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #981](https://leetcode.com/problems/time-based-key-value-store/)
 
 <Tabs>
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
+import java.util.Map;
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class TimeMap {
+    //  Declare timeMap for global use
+    private Map<String, TreeMap> timeMap;
+
+    public TimeMap() {
+        //  Initialize timeMap
+        timeMap = new HashMap<>();
     }
-}
-```
 
-</TabItem>
-</Tabs>
+    public void set(String key, String value, int timestamp) {
+        //  If given key is not already in timeMap,
+        //      put key and a new tree map
+        if(!timeMap.containsKey(key)) {
+           timeMap.put(key, new TreeMap<>());
+        }
 
-</details>
+        //  First get the value for the given key:
+        //      a TreeMap
+        //  Put timestamp as key and value as value in the TreeMap
+        timeMap.get(key).put(timestamp, value);
 
-<details> 
-<summary> Problem Name 6 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
     }
-}
-```
 
-</TabItem>
-</Tabs>
+    public String get(String key, int timestamp) {
+        //  Get the value (as TreeMap) for a given key
+        //      from the TimeMap, and
+        //      store it newly declared treeMap
+        TreeMap<Integer, String> treeMap = timeMap.get(key);
 
-</details>
+        //  If treeMap is null, return an empty string
+        if (treeMap == null) {
+            return "";
+        }
 
-<details> 
-<summary> Problem Name 7 (Expand/Collapse) </summary> 
+        //  Returns the greatest key less than or equal to
+        //      the given key, or null if there is no such key.
+        //  Declare an integer to store the greatest key (timestamp here)
+        //      less than or equal to the given key
+        Integer floorTimestamp = treeMap.floorKey(timestamp);
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+        //  If floorTimestamp is null, return an empty string
+        if (floorTimestamp == null) {
+            return "";
+        }
 
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        //  Return the value from treeMap corresponding
+        //      to the greatest key (timestamp here)
+        //      less than or equal to the given key
+        return treeMap.get(floorTimestamp);
     }
-}
-```
 
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 8 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
 
-</TabItem>
-</Tabs>
+        // Example 1:
+        //Input
+        //["TimeMap", "set", "get", "get", "set", "get", "get"]
+        //[[], ["foo", "bar", 1], ["foo", 1], ["foo", 3], ["foo", "bar2", 4], ["foo", 4]
+        //, ["foo", 5]]
 
-</details>
+        TimeMap timeMap = new TimeMap();
+        timeMap.set("foo", "bar", 1);
+//        timeMap.get("foo", 1);
+        System.out.println(timeMap.get("foo", 1));
+//        timeMap.get("foo", 3);
+        System.out.println(timeMap.get("foo", 3));
+        timeMap.set("foo", "bar2", 4);
+//        timeMap.get("foo", 4);
+        System.out.println(timeMap.get("foo", 4));
+//        timeMap.get("foo", 5);
+        System.out.println(timeMap.get("foo", 5));
 
-<details> 
-<summary> Problem Name 9 (Expand/Collapse) </summary> 
+        //  O/P:
+        //[null, null, "bar", "bar", null, "bar2", "bar2"]
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
     }
 }
 ```

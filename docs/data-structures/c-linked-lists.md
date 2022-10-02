@@ -8,6 +8,7 @@ tags: [
     lru-cache
     merge-two-sorted-lists,
     middle-of-the-linked-list,
+    palindrome-linked-list,
     reverse-linked-list,
 ]
 ---
@@ -152,6 +153,27 @@ public class Solution {
 <summary> Reorder List (Expand/Collapse) </summary> 
 
 ### [↗ See LeetCode Problem #143](https://leetcode.com/problems/reorder-list/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
+<details> 
+<summary> Palindrome Linked List (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #234](https://leetcode.com/problems/palindrome-linked-list/)
 
 <Tabs>
 <TabItem value="java" label="Java">

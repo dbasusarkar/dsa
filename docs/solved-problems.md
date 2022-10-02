@@ -7,7 +7,7 @@ tags: [solved-problems]
 
 # Solved Problems
 
-## [Click Here to Access All Tags](https://dbasusarkar.github.io/dsa/docs/tags)
+## [🏷 Click Here to Access All Tags](https://dbasusarkar.github.io/dsa/docs/tags)
 
 ## Solved Problems Related to Arrays
 

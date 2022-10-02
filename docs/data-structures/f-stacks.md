@@ -4,10 +4,11 @@ id: f-stacks
 title: Stacks 
 tags: [
     stacks,
-    basic-calculator,
+    backspace-string-compare,
+    basic-calculator, 
     evaluate-reverse-polish-notation,
     implement-queue-using-stacks, 
-    largest_rectangle_in_histogram,
+    largest-rectangle-in-histogram,
     min-stack,
     trapping-rain-water,
     valid-parentheses,
@@ -87,12 +88,31 @@ public class Solution {
 
 </details>
 
-
-
 <details> 
 <summary> Implement Queue Using Stacks (Expand/Collapse) </summary> 
 
 ### [↗ See LeetCode Problem #232](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
+<details> 
+<summary> Largest Rectangle in Histogram (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #84](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 <Tabs>
 <TabItem value="java" label="Java">
@@ -132,30 +152,9 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Minimum Window Substring (Expand/Collapse) </summary> 
+<summary> Trapping Rain Water (Expand/Collapse) </summary> 
 
-### [↗ See LeetCode Problem #76](https://leetcode.com/problems/minimum-window-substring/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Largest Rectangle in Histogram (Expand/Collapse) </summary> 
-
-### [↗ See LeetCode Problem #84](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+### [↗ See LeetCode Problem #42](https://leetcode.com/problems/trapping-rain-water/)
 
 <Tabs>
 <TabItem value="java" label="Java">

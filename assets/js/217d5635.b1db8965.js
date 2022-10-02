@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[2486],{1490:s=>{s.exports=JSON.parse('{"label":"two-sum","permalink":"/dsa/docs/tags/two-sum","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/a-arrays","title":"Arrays","description":"- Understanding arrays","permalink":"/dsa/docs/data-structures/a-arrays"}]}')}}]);

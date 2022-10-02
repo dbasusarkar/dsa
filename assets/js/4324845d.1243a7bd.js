@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[8896],{2638:a=>{a.exports=JSON.parse('{"label":"roman-to-integer","permalink":"/dsa/docs/tags/roman-to-integer","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/k-math","title":"Math","description":"- Understanding math","permalink":"/dsa/docs/patterns/k-math"}]}')}}]);

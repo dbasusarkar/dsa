@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[1301],{4869:s=>{s.exports=JSON.parse('{"label":"climbing-stairs","permalink":"/dsa/docs/tags/climbing-stairs","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/i-dp","title":"Dynamic Programming","description":"- Understanding dynamic programming","permalink":"/dsa/docs/patterns/i-dp"}]}')}}]);

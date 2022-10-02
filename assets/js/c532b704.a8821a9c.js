@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[246],{6092:s=>{s.exports=JSON.parse('{"label":"spiral-matrix","permalink":"/dsa/docs/tags/spiral-matrix","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/j-matrices","title":"Matrices","description":"- Understanding matrices","permalink":"/dsa/docs/patterns/j-matrices"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[938],{4091:e=>{e.exports=JSON.parse('{"label":"geometry","permalink":"/dsa/docs/tags/geometry","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/l-geometry","title":"Geometry","description":"- Understanding geometry","permalink":"/dsa/docs/patterns/l-geometry"}]}')}}]);

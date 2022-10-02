@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[8912],{8978:a=>{a.exports=JSON.parse('{"label":"coin-change","permalink":"/dsa/docs/tags/coin-change","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/i-dp","title":"Dynamic Programming","description":"- Understanding dynamic programming","permalink":"/dsa/docs/patterns/i-dp"}]}')}}]);

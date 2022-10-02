@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[3304],{362:s=>{s.exports=JSON.parse('{"label":"two-pointers","permalink":"/dsa/docs/tags/two-pointers","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/b-two-pointers","title":"Two Pointers","description":"- Understanding two pointers","permalink":"/dsa/docs/patterns/b-two-pointers"}]}')}}]);

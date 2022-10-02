@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[9764],{8753:a=>{a.exports=JSON.parse('{"label":"palindrome-number","permalink":"/dsa/docs/tags/palindrome-number","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/k-math","title":"Math","description":"- Understanding math","permalink":"/dsa/docs/patterns/k-math"}]}')}}]);

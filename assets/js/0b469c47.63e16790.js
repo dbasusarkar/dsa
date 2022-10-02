@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[2096],{6853:a=>{a.exports=JSON.parse('{"label":"math","permalink":"/dsa/docs/tags/math","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"patterns/k-math","title":"Math","description":"- Understanding math","permalink":"/dsa/docs/patterns/k-math"}]}')}}]);

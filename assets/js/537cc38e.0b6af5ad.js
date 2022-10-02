@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[3599],{5290:a=>{a.exports=JSON.parse('{"label":"merge-intervals","permalink":"/dsa/docs/tags/merge-intervals","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/a-arrays","title":"Arrays","description":"- Understanding arrays","permalink":"/dsa/docs/data-structures/a-arrays"}]}')}}]);

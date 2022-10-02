@@ -43,6 +43,7 @@ public class Solution {
 </TabItem>
 </Tabs>
 
+</details>
 
 <details> 
 <summary> Group Anagrams (Expand/Collapse) </summary> 
@@ -62,8 +63,6 @@ public class Solution {
 
 </TabItem>
 </Tabs>
-
-</details>
 
 </details>
 

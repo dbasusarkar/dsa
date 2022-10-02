@@ -3,7 +3,7 @@ sidebar_position: 5
 id: e-linked-list-reversal 
 title: Linked List Reversal
 tags: [
-    e-linked-list-reversal,
+    linked-list-reversal,
     reverse-linked-list,
 ]
 ---

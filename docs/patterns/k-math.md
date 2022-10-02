@@ -6,7 +6,7 @@ tags: [
     math,
     palindrome-number,
     reverse-integer,
-    roman-to-integer
+    roman-to-integer,
     squares-of-a-sorted-array,
 ]
 ---

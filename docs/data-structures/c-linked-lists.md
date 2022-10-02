@@ -19,6 +19,7 @@ import TabItem from '@theme/TabItem';
 
 - Understanding linked lists 
 - Solved problems are presented in alphabetical order
+
 ## Problems related to strings 
 
 <details> 

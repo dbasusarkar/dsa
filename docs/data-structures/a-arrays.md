@@ -25,6 +25,7 @@ import TabItem from '@theme/TabItem';
 
 - Understanding arrays
 - Solved problems are presented in alphabetical order
+
 ## Problems related to arrays
 
 <details> 

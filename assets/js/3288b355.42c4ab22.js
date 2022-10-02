@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[9886],{3938:e=>{e.exports=JSON.parse('{"title":"Patterns","slug":"/category/patterns","permalink":"/dsa/docs/category/patterns","navigation":{"previous":{"title":"Greedy","permalink":"/dsa/docs/algorithms/e-greedy"},"next":{"title":"Sliding Window","permalink":"/dsa/docs/patterns/a-sliding-window"}}}')}}]);

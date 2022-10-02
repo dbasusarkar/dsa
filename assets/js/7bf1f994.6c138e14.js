@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[2279],{8139:a=>{a.exports=JSON.parse('{"label":"maximum_subarray","permalink":"/dsa/docs/tags/maximum-subarray","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"algorithms/e-greedy","title":"Greedy","description":"- Understanding greedy","permalink":"/dsa/docs/algorithms/e-greedy"}]}')}}]);

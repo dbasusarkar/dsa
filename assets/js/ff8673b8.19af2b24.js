@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[6208],{2523:s=>{s.exports=JSON.parse('{"label":"permutations","permalink":"/dsa/docs/tags/permutations","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"algorithms/c-recursion","title":"Recursion","description":"- Understanding recursion","permalink":"/dsa/docs/algorithms/c-recursion"}]}')}}]);

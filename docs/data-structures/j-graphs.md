@@ -33,8 +33,8 @@ import TabItem from '@theme/TabItem';
 
 ### [↗ See LeetCode Problem #721](https://leetcode.com/problems/accounts-merge/)
 
-- disjoint-set
-- union-find
+### 🏷 disjoint-set
+### 🏷 union-find
 
 <Tabs>
 <TabItem value="java" label="Java">

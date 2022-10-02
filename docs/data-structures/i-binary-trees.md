@@ -7,8 +7,8 @@ tags: [
     balanced-binary-tree,
     binary-tree-level-order-traversal,
     diameter-of-binary-tree,
-    maximum-depth-of-binary-tree,
     invert-binary-tree,
+    maximum-depth-of-binary-tree, 
     same-tree,
     serialize-and-deserialize-binary-tree,
     subtree-of-another-tree,
@@ -19,12 +19,17 @@ tags: [
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Binary Trees 
+# Binary Trees
+
+- Understanding binary trees 
+- Solved problems are presented in alphabetical order
+
+## Problems related to binary trees 
 
 <details> 
-<summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 
+<summary> Balanced Binary Tree (Expand/Collapse) </summary> 
 
-### [See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+### [↗ See LeetCode Problem #110](https://leetcode.com/problems/balanced-binary-tree/)
 
 <Tabs>
 <TabItem value="java" label="Java">
@@ -43,30 +48,9 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Contains Duplicate (Expand/Collapse) </summary> 
+<summary> Binary Tree Level Order Traversal (Expand/Collapse) </summary> 
 
-### [See LeetCode Problem #217](https://leetcode.com/problems/contains-duplicate/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Insert Interval (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #57](https://leetcode.com/problems/insert-interval/)
+### [↗ See LeetCode Problem #102](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 <Tabs>
 <TabItem value="java" label="Java">
@@ -85,115 +69,9 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Majority Element (Expand/Collapse) </summary> 
+<summary> Diameter of Binary Tree (Expand/Collapse) </summary> 
 
-### [See LeetCode Problem #169](https://leetcode.com/problems/majority-element/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Two Sum (Expand/Collapse) </summary> 
-
-### [See LeetCode Problem #1](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
-public class Solution {
-
-//    //  Brute force approach
-//    public int[] twoSum(int[] nums, int target) {
-//        for (int i = 0; i < nums.length; i++) {
-//            for (int j = i + 1; j < nums.length; j++) {
-//                if (nums[j] == target - nums[i]) {
-//                    return new int[]{i, j};
-//              }
-//          }
-//        }
-//        return null;
-//    }
-
-    //  O(N) time complexity
-    //  2-pass HashMap
-//      static int[] twoSum(int[] nums, int target) {
-//          Map<Integer, Integer> hmap = new HashMap<>();
-//          for (int i = 0; i < nums.length; i++) {
-//              hmap.put(nums[i], i);
-//          }
-//
-//          for (int i = 0; i < nums.length; i++) {
-//              int complement = target - nums[i];
-//              if (hmap.containsKey(complement) && hmap.get(complement) != i) {
-//                  return new int[] {i, hmap.get(complement)};
-//              }
-//          }
-//          return null;
-//      }
-
-    //  O(N) time complexity
-    //  1-pass HashMap
-    static int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> hmap = new HashMap<>();
-
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if (hmap.containsKey(complement)) {
-                return new int[] {hmap.get(complement), i};
-            }
-            hmap.put(nums[i], i);
-        }
-        return null;
-    }
-
-    public static void main(String[] args) {
-        //Output: [0,1]
-        int[] nums1 = {2,7,11,15};
-        int target1 = 9;
-
-        //Output: [1,2]
-        int[] nums2 = {3,2,4};
-        int target2 = 6;
-
-        //Output: [0,1]
-        int[] nums3 = {3,3};
-        int target3 = 6;
-
-        System.out.println(Arrays.toString(twoSum(nums1, target1)));
-        System.out.println(Arrays.toString(twoSum(nums2, target2)));
-        System.out.println(Arrays.toString(twoSum(nums3, target3)));
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 2 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #543](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 <Tabs>
 <TabItem value="java" label="Java">
@@ -212,32 +90,9 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Problem Name 3 (Expand/Collapse) </summary> 
+<summary> Invert Binary Tree (Expand/Collapse) </summary> 
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 4 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #226](https://leetcode.com/problems/invert-binary-tree/)
 
 <Tabs>
 <TabItem value="java" label="Java">
@@ -256,32 +111,9 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Problem Name 5 (Expand/Collapse) </summary> 
+<summary> Maximum Depth of Binary Tree (Expand/Collapse) </summary> 
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 6 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 <Tabs>
 <TabItem value="java" label="Java">
@@ -300,32 +132,9 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Problem Name 7 (Expand/Collapse) </summary> 
+<summary> Same Tree (Expand/Collapse) </summary> 
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
-
-</details>
-
-<details> 
-<summary> Problem Name 8 (Expand/Collapse) </summary> 
-
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #100](https://leetcode.com/problems/same-tree/)
 
 <Tabs>
 <TabItem value="java" label="Java">
@@ -344,10 +153,51 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Problem Name 9 (Expand/Collapse) </summary> 
+<summary> Serialize and Deserialize Binary Tree (Expand/Collapse) </summary> 
 
-<!-- two_sum [***Grind75-Array-1/11, +++H-Array, +++M-HashTable] -->
-### [Problem statement from LeetCode](https://leetcode.com/problems/two-sum/)
+### [↗ See LeetCode Problem #297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
+<details> 
+<summary> Subtree of Another Tree (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #572](https://leetcode.com/problems/subtree-of-another-tree/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
+<details> 
+<summary> Symmetric Tree (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #101](https://leetcode.com/problems/symmetric-tree/)
 
 <Tabs>
 <TabItem value="java" label="Java">

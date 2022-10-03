@@ -4,7 +4,6 @@ id: f-subsets
 title: Subsets
 tags: [
     subsets,
-    permutations,
 ]
 ---
 
@@ -31,5 +30,3 @@ import TabItem from '@theme/TabItem';
 ### [↗ Subsets](../algorithms/c-recursion.mdx)
 
 </details>
-
-

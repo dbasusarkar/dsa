@@ -32,9 +32,56 @@ import TabItem from '@theme/TabItem';
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+import java.math.BigInteger;
+
 public class Solution {
+    static String addBinary(String a, String b) {
+        //  Approach 1: Might not be acceptable to the interviwer
+//        return Integer.toBinaryString(
+//                Integer.parseInt(a,2) + Integer.parseInt(b, 2));
+
+        //  Approach 2: XOR a and b (to get respone without carry)
+        //      AND a and b and then left shift by 1 (<< 1)
+        //          (to get respone with carry)
+        //      Set a = the respone without carry
+        //      Set b = the respone with carry
+        //      Continue while carry != 0
+
+        BigInteger bigA = new BigInteger(a, 2);
+        BigInteger bigB = new BigInteger(b, 2);
+
+        BigInteger bigZero = new BigInteger("0", 2);
+
+        BigInteger temp;
+        BigInteger carry;
+
+        while (bigB.compareTo(bigZero) != 0) {
+            temp = bigA.xor(bigB);
+            carry = bigA.and(bigB).shiftLeft(1);
+
+            //  Update bigA
+            bigA = temp;
+            //  Update bigB
+            bigB = carry;
+        }
+
+        return bigA.toString(2);
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        // Example 1:
+        String a1 = "11";
+        String b1 = "1";
+        //  O/P: "100"
+
+        // Example 2:
+         String a2 = "1010";
+         String b2 = "1011";
+        //  O/P: "10101"
+
+        System.out.println(addBinary(a1, b1));
+        System.out.println(addBinary(a2, b2));
+
     }
 }
 ```
@@ -53,9 +100,41 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+import java.util.Arrays;
+
 public class Solution {
+    static int[] countBits(int n) {
+
+        int[] ans = new int[n + 1];
+
+        for (int i = 1; i <= n; ++i) {
+
+            //  i / 2 is i >> 1 (bit right shift operation)
+            //  i % 2 is i & 1
+            ans[i] = ans[i >> 1] + (i & 1);
+
+        }
+
+        return ans;
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
+        // Example 1:
+        int n1 = 2;
+        //  O/P: [0,1,1]
+
+        // Example 2:
+        int n2 = 5;
+        //  O/P: [0,1,1,2,1,2]
+
+        // Example 3:
+        int n3 = 55;
+
+        System.out.println(Arrays.toString(countBits(n1)));
+        System.out.println(Arrays.toString(countBits(n2)));
+        System.out.println(Arrays.toString(countBits(n3)));
+
     }
 }
 ```
@@ -75,10 +154,45 @@ public class Solution {
 
 ```java showLineNumbers
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
+    static int missingNumber(int[] nums) {
+
+        //  nums.length will always be in the given array
+        //      but it won't appear as an index in the for loop
+        int missing = nums.length;
+
+        for (int i = 0; i < nums.length; i++) {
+            missing ^= nums[i] ^ i;
+        }
+
+        return missing;
     }
-}
+
+    public static void main(String[] args) {
+
+        // Example 1:
+        int[] nums1 = {3, 0, 1};
+        //  O/P: 2
+
+        // Example 2:
+        int[] nums2 = {0, 1};
+        //  O/P: 2
+
+        // Example 3:
+        int[] nums3 = {9, 6, 4, 2, 3, 5, 7, 0, 1};
+        //  O/P: 8
+
+        // Example 4:
+        int[] nums4 = {2, 0, 3};
+        //  O/P: 2
+        // 3^2^0^0^1^3^2
+
+        System.out.println("Example 1: " + missingNumber(nums1));
+        System.out.println("Example 2: " + missingNumber(nums2));
+        System.out.println("Example 3: " + missingNumber(nums3));
+        System.out.println("Example 4: " + missingNumber(nums4));
+
+    }
+ }
 ```
 
 </TabItem>
@@ -96,8 +210,37 @@ public class Solution {
 
 ```java showLineNumbers
 public class Solution {
+    static int hammingWeight(int n) {
+        int sum = 0;
+
+        while (n != 0) {
+            sum++;
+            n = n & (n - 1);
+//            n &= (n - 1);
+        }
+
+        return sum;
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
+        // Example 1:
+        int n1 = 0B00000000000000000000000000001011;
+        //  O/P: 3
+
+        // Example 2:
+        int n2 = 0B00000000000000000000000010000000;
+        //  O/P: 1
+
+        //  Need to signed number issue
+        // Example 3:
+        //Input: n3 = 11111111111111111111111111111101
+        //Output: 31
+
+        System.out.println(hammingWeight(n1));
+        System.out.println(Integer.toBinaryString(hammingWeight(n1)));
+        System.out.println(hammingWeight(n2));
+        System.out.println(Integer.toBinaryString(hammingWeight(n2)));
     }
 }
 ```
@@ -116,9 +259,60 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+// Doesn't work with negative signed integer
+
 public class Solution {
+    static int reverseBits(int n) {
+        //   If n is 0 return 0
+        if (n == 0) {
+            return 0;
+        }
+
+        //   Initializing the result
+        int result = 0;
+
+        //   Loop through the given 32 bit (unsigned) integer
+        for (int i = 0; i < 32; i++) {
+            //  Bitwise leftshifting result
+            result <<= 1;
+            //  Adding 1 to result if & between righmost value of n
+            //      and 1 is 1
+            if ((n & 1) == 1) {
+                result++;
+            }
+
+            //   Bitwise righshifting given n since the rightmost digit
+            //       has been processed
+            n >>= 1;
+        }
+
+        return result;
+
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
+        // Example 1:
+//        int n1 = 00000010100101000001111010011100;
+        int n1 = 0B00000010100101000001111010011100;
+        //  O/P: 964176192 (00111001011110000010100101000000)
+        //                 (111001011110000010100101000000)
+
+        // Example 2:
+//        int n2 = 11111111111111111111111111111101;
+        //  Wrong since left-most 1 represents negative
+        //  int n2 = 0B11111111111111111111111111111101;
+        //  First, flip 1's and 0's: to get 1's complement
+        //  0B00000000000000000000000000000010;
+        //  Then add 1: to get 2's complement
+        //  0B00000000000000000000000000000011;
+        //  So, we have:
+//        long n2 = 0B00000000000000000000000000000011L;
+        //  O/P: 3221225471 (10111111111111111111111111111111)
+
+        System.out.println(reverseBits(n1));
+        System.out.println(Integer.toBinaryString(reverseBits(n1)));
+//        System.out.println(reverseBits(n2));
     }
 }
 ```
@@ -138,8 +332,31 @@ public class Solution {
 
 ```java showLineNumbers
 public class Solution {
+    static int singleNumber(int[] nums) {
+
+        int result = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            result ^= nums[i];
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
+        int[] nums1 = {2,2,1};
+        //  O/P: 1
+
+        int[] nums2 = {4,1,2,1,2};
+        //  O/P: 4
+
+        int[] nums3 = {1};
+        //  O/P: 1
+
+        System.out.println("Example 1: " + singleNumber(nums1));
+        System.out.println("Example 2: " + singleNumber(nums2));
+        System.out.println("Example 3: " + singleNumber(nums3));
     }
 }
 ```

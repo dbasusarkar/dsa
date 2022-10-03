@@ -103,3 +103,17 @@ public class HitCounter {
 </Tabs>
 
 </details>
+
+<details> 
+<summary> Rotting Oranges </summary> 
+
+### [↗ Rotting Oranges](./k-graphs.md)
+
+</details>
+
+<details> 
+<summary> Word Ladder </summary> 
+
+### [↗ Word Ladder](./e-hash-set.md)
+
+</details>

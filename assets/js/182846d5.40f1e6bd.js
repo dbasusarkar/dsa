@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[5842],{1223:s=>{s.exports=JSON.parse('{"label":"gas-station","permalink":"/dsa/docs/tags/gas-station","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"algorithms/e-greedy","title":"Greedy","description":"- Understanding greedy","permalink":"/dsa/docs/algorithms/e-greedy"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[2993],{9801:a=>{a.exports=JSON.parse('{"label":"alien-dictionary","permalink":"/dsa/docs/tags/alien-dictionary","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/k-graphs","title":"Graphs","description":"- Understanding graphs","permalink":"/dsa/docs/data-structures/k-graphs"}]}')}}]);

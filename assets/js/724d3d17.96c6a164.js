@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[1492],{6069:s=>{s.exports=JSON.parse('{"label":"number-of-islands","permalink":"/dsa/docs/tags/number-of-islands","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/k-graphs","title":"Graphs","description":"- Understanding graphs","permalink":"/dsa/docs/data-structures/k-graphs"}]}')}}]);

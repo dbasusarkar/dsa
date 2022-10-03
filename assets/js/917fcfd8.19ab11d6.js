@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[3315],{5610:s=>{s.exports=JSON.parse('{"label":"union-find","permalink":"/dsa/docs/tags/union-find","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/k-graphs","title":"Graphs","description":"- Understanding graphs","permalink":"/dsa/docs/data-structures/k-graphs"}]}')}}]);

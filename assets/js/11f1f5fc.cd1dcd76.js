@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[6826],{2146:s=>{s.exports=JSON.parse('{"label":"tries","permalink":"/dsa/docs/tags/tries","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/k-tries","title":"Tries","description":"- Understanding tries","permalink":"/dsa/docs/data-structures/k-tries"}]}')}}]);

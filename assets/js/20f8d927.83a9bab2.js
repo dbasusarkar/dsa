@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[6679],{9699:s=>{s.exports=JSON.parse('{"label":"word-break","permalink":"/dsa/docs/tags/word-break","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/l-tries","title":"Tries","description":"- Understanding tries","permalink":"/dsa/docs/data-structures/l-tries"}]}')}}]);

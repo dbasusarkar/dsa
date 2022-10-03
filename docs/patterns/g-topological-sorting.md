@@ -4,7 +4,6 @@ id: g-topological-sorting
 title: Topological Sorting
 tags: [
     topological-sorting,
-    course-schedule
 ]
 ---
 
@@ -28,20 +27,6 @@ import TabItem from '@theme/TabItem';
 <details> 
 <summary> Course Schedule (Expand/Collapse) </summary> 
 
-### [↗ See LeetCode Problem #207](https://leetcode.com/problems/course-schedule/)
-
-<Tabs>
-<TabItem value="java" label="Java">
-
-```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-</TabItem>
-</Tabs>
+### [↗ Course Schedule](../data-structures/k-graphs.md)
 
 </details>

@@ -62,9 +62,10 @@ const sidebars = {
         'data-structures/f-stacks',
         'data-structures/g-queues',
         'data-structures/h-heaps',
-        'data-structures/i-binary-trees',
-        'data-structures/j-graphs',
-        'data-structures/k-tries',
+        'data-structures/i-binary-search-trees',
+        'data-structures/j-binary-trees',
+        'data-structures/k-graphs',
+        'data-structures/l-tries',
       ],
     },
     {

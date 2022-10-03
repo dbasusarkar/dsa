@@ -1,11 +1,12 @@
 ---
 sidebar_position: 9 
-id: i-binary-trees
-title: Binary-trees
+id: j-binary-trees
+title: Binary Trees
 tags: [
     binary-trees,
     balanced-binary-tree,
     binary-tree-level-order-traversal,
+    construct-binary-tree-from-preorder-and-inorder-traversal,
     diameter-of-binary-tree,
     invert-binary-tree,
     maximum-depth-of-binary-tree, 
@@ -67,6 +68,28 @@ public class Solution {
 </Tabs>
 
 </details>
+
+<details> 
+<summary> Construct Binary Tree from Preorder and Inorder Traversal (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
 
 <details> 
 <summary> Diameter of Binary Tree (Expand/Collapse) </summary> 

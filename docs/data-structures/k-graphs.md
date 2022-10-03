@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-id: j-graphs
+id: k-graphs
 title: Graphs 
 tags: [
     graphs,

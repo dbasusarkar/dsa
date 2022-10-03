@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-id: k-tries
+id: l-tries
 title: Tries
 tags: [
     tries,

@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 <details> 
 <summary> Alien Dictionary (Expand/Collapse) </summary> 
 
-### [↗ Alien Dictionary](../data-structures/j-graphs.md/)
+### [↗ Alien Dictionary](../data-structures/k-graphs.md/)
 
 </details>
 

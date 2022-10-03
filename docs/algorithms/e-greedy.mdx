@@ -4,6 +4,7 @@ id: e-greedy
 title: Greedy 
 tags:
   - greedy
+  - gas-station
   - maximum_subarray
 ---
 
@@ -16,6 +17,59 @@ import TabItem from '@theme/TabItem';
 - Solved problems are presented in alphabetical order
 
 ## Problems related to greedy 
+
+<details> 
+<summary> Gas Station (Expand/Collapse) </summary> 
+
+### [️↗ See LeetCode Problem #134](https://leetcode.com/problems/gas-station/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    static int canCompleteCircuit(int[] gas, int[] cost) {
+
+        int n = gas.length;
+
+        int totalGas = 0;
+        int currentGas = 0;
+
+        int startingStation = 0;
+
+        for (int i = 0; i < n; ++i) {
+            totalGas += gas[i] - cost[i];
+            currentGas += gas[i] - cost[i];
+
+            if (currentGas < 0) {
+                startingStation = i + 1;
+                currentGas = 0;
+            }
+        }
+        return totalGas >= 0 ? startingStation : -1;
+    }
+
+    public static void main(String[] args) {
+        // Example 1:
+        int[] gas1 = {1,2,3,4,5};
+        int[] cost1 = {3,4,5,1,2};
+        //  O/P: 3
+
+        // Example 2:
+        int[] gas2 = {2,3,4};
+        int[] cost2 = {3,4,3};
+        //  O/P: -1
+
+        System.out.println(canCompleteCircuit(gas1, cost1));
+        System.out.println(canCompleteCircuit(gas2, cost2));
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
 
 <details> 
 <summary> Maximum Subarray (Expand/Collapse) </summary> 

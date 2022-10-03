@@ -25,6 +25,13 @@ import TabItem from '@theme/TabItem';
 </details>
 
 <details> 
+<summary> Intersection of Two Linked Lists (Expand/Collapse) </summary> 
+
+### [↗ Intersection of Two Linked Lists](../data-structures/c-linked-lists.md)
+
+</details>
+
+<details> 
 <summary> Sort Colors (Expand/Collapse) </summary> 
 
 ### [↗ Sort Colors](../data-structures/a-arrays.md)

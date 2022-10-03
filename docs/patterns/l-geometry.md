@@ -18,7 +18,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to geometry
 
 <details> 
-<summary> K Closest Points to Origin (Expand/Collapse) </summary> 
+<summary> K Closest Points to Origin </summary> 
 
 ### [↗ K Closest Points to Origin](../data-structures/h-heaps.md)
 

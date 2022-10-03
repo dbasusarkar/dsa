@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to binary trees 
 
 <details> 
-<summary> Balanced Binary Tree (Expand/Collapse) </summary> 
+<summary> Balanced Binary Tree </summary> 
 
 ### [↗ See LeetCode Problem #110](https://leetcode.com/problems/balanced-binary-tree/)
 
@@ -125,7 +125,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Binary Tree Level Order Traversal (Expand/Collapse) </summary> 
+<summary> Binary Tree Level Order Traversal </summary> 
 
 ### [↗ See LeetCode Problem #102](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
@@ -245,7 +245,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Construct Binary Tree from Preorder and Inorder Traversal (Expand/Collapse) </summary> 
+<summary> Construct Binary Tree from Preorder and Inorder Traversal </summary> 
 
 ### [↗ See LeetCode Problem #105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
@@ -268,7 +268,7 @@ public class Solution {
 
 
 <details> 
-<summary> Diameter of Binary Tree (Expand/Collapse) </summary> 
+<summary> Diameter of Binary Tree </summary> 
 
 ### [↗ See LeetCode Problem #543](https://leetcode.com/problems/diameter-of-binary-tree/)
 
@@ -363,7 +363,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Invert Binary Tree (Expand/Collapse) </summary> 
+<summary> Invert Binary Tree </summary> 
 
 ### [↗ See LeetCode Problem #226](https://leetcode.com/problems/invert-binary-tree/)
 
@@ -429,7 +429,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Maximum Depth of Binary Tree (Expand/Collapse) </summary> 
+<summary> Maximum Depth of Binary Tree </summary> 
 
 ### [↗ See LeetCode Problem #104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
@@ -492,7 +492,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Same Tree (Expand/Collapse) </summary> 
+<summary> Same Tree </summary> 
 
 ### [↗ See LeetCode Problem #100](https://leetcode.com/problems/same-tree/)
 
@@ -554,7 +554,7 @@ class Solution {
 </details>
 
 <details> 
-<summary> Serialize and Deserialize Binary Tree (Expand/Collapse) </summary> 
+<summary> Serialize and Deserialize Binary Tree </summary> 
 
 ### [↗ See LeetCode Problem #297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
@@ -679,7 +679,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Subtree of Another Tree (Expand/Collapse) </summary> 
+<summary> Subtree of Another Tree </summary> 
 
 ### [↗ See LeetCode Problem #572](https://leetcode.com/problems/subtree-of-another-tree/)
 
@@ -763,7 +763,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Symmetric Tree (Expand/Collapse) </summary> 
+<summary> Symmetric Tree </summary> 
 
 ### [↗ See LeetCode Problem #101](https://leetcode.com/problems/symmetric-tree/)
 

@@ -26,7 +26,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to stacks 
 
 <details> 
-<summary> Backspace String Compare (Expand/Collapse) </summary> 
+<summary> Backspace String Compare </summary> 
 
 ### [↗ See LeetCode Problem #844](https://leetcode.com/problems/backspace-string-compare/)
 
@@ -88,7 +88,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Basic Calculator (Expand/Collapse) </summary> 
+<summary> Basic Calculator </summary> 
 
 ### [↗ See LeetCode Problem #224](https://leetcode.com/problems/basic-calculator/)
 
@@ -219,7 +219,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Evaluate Reverse Polish Notation (Expand/Collapse) </summary> 
+<summary> Evaluate Reverse Polish Notation </summary> 
 
 ### [↗ See LeetCode Problem #150](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
@@ -302,7 +302,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Implement Queue Using Stacks (Expand/Collapse) </summary> 
+<summary> Implement Queue Using Stacks </summary> 
 
 ### [↗ See LeetCode Problem #232](https://leetcode.com/problems/implement-queue-using-stacks/)
 
@@ -387,7 +387,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Largest Rectangle in Histogram (Expand/Collapse) </summary> 
+<summary> Largest Rectangle in Histogram </summary> 
 
 ### [↗ See LeetCode Problem #84](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
@@ -470,7 +470,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Min Stack (Expand/Collapse) </summary> 
+<summary> Min Stack </summary> 
 
 ### [↗ See LeetCode Problem #155](https://leetcode.com/problems/min-stack/)
 
@@ -582,7 +582,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Trapping Rain Water (Expand/Collapse) </summary> 
+<summary> Trapping Rain Water </summary> 
 
 ### [↗ See LeetCode Problem #42](https://leetcode.com/problems/trapping-rain-water/)
 
@@ -654,7 +654,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Valid Parentheses (Expand/Collapse) </summary> 
+<summary> Valid Parentheses </summary> 
 
 ### [↗ See LeetCode Problem #20](https://leetcode.com/problems/valid-parentheses/)
 

@@ -18,21 +18,21 @@ import TabItem from '@theme/TabItem';
 ## Problems related to two pointers 
 
 <details> 
-<summary> Container with Most Water (Expand/Collapse) </summary> 
+<summary> Container with Most Water </summary> 
 
 ### [↗ Container with Most Water](../data-structures/a-arrays.md)
 
 </details>
 
 <details> 
-<summary> Intersection of Two Linked Lists (Expand/Collapse) </summary> 
+<summary> Intersection of Two Linked Lists </summary> 
 
 ### [↗ Intersection of Two Linked Lists](../data-structures/c-linked-lists.md)
 
 </details>
 
 <details> 
-<summary> Sort Colors (Expand/Collapse) </summary> 
+<summary> Sort Colors </summary> 
 
 ### [↗ Sort Colors](../data-structures/a-arrays.md)
 
@@ -41,14 +41,14 @@ import TabItem from '@theme/TabItem';
 
 
 <details> 
-<summary> Squares of a Sorted Array (Expand/Collapse) </summary> 
+<summary> Squares of a Sorted Array </summary> 
 
 ### [↗ Squares of a Sorted Array](./k-math.md)
 
 </details>
 
 <details> 
-<summary> Trapping Rain Water (Expand/Collapse) </summary> 
+<summary> Trapping Rain Water </summary> 
 
 ### [↗ Trapping Rain Water](../data-structures/f-stacks.md)
 

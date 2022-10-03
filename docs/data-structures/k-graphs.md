@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to graphs 
 
 <details> 
-<summary> Accounts Merge (Expand/Collapse) </summary> 
+<summary> Accounts Merge </summary> 
 
 ### [↗ See LeetCode Problem #721](https://leetcode.com/problems/accounts-merge/)
 
@@ -194,7 +194,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Alien Dictionary (Expand/Collapse) </summary> 
+<summary> Alien Dictionary </summary> 
 
 ### [↗ See LeetCode Problem #269](https://leetcode.com/problems/alien-dictionary/)
 
@@ -300,7 +300,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Clone Graph (Expand/Collapse) </summary> 
+<summary> Clone Graph </summary> 
 
 ### [↗ See LeetCode Problem #133](https://leetcode.com/problems/clone-graph/)
 
@@ -458,7 +458,7 @@ class Node {
 </details>
 
 <details> 
-<summary> Course Schedule (Expand/Collapse) </summary> 
+<summary> Course Schedule </summary> 
 
 ### [↗ See LeetCode Problem #207](https://leetcode.com/problems/course-schedule/)
 
@@ -565,8 +565,8 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Flood Fill (Expand/Collapse) </summary>  
-    
+<summary> Flood Fill </summary>
+
 ### [↗ See LeetCode Problem #733](https://leetcode.com/problems/flood-fill/)
 
 <Tabs>
@@ -663,7 +663,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Number of Islands (Expand/Collapse) </summary>  
+<summary> Number of Islands </summary>  
 
 ### [↗ See LeetCode Problem #200](https://leetcode.com/problems/number-of-islands/)
 
@@ -760,7 +760,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Rotting Oranges (Expand/Collapse) </summary> 
+<summary> Rotting Oranges </summary> 
 
 ### [↗ See LeetCode Problem #994](https://leetcode.com/problems/rotting-oranges/)
 
@@ -911,14 +911,14 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Word Ladder (Expand/Collapse) </summary> 
+<summary> Word Ladder </summary> 
 
 ### [↗ Word Ladder](./e-hash-set.md)
 
 </details>
 
 <details> 
-<summary> 01 Matrix (Expand/Collapse) </summary> 
+<summary> 01 Matrix </summary> 
 
 ### [↗ See LeetCode Problem #542](https://leetcode.com/problems/01-matrix/)
 

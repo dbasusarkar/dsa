@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to heaps 
 
 <details> 
-<summary> Find Median from Data Stream (Expand/Collapse) </summary> 
+<summary> Find Median from Data Stream </summary> 
 
 ### [↗ See LeetCode Problem #295](https://leetcode.com/problems/find-median-from-data-stream/)
 
@@ -105,7 +105,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> K Closest Points to Origin (Expand/Collapse) </summary> 
+<summary> K Closest Points to Origin </summary> 
 
 ### [↗ See LeetCode Problem #973](https://leetcode.com/problems/k-closest-points-to-origin/)
 
@@ -189,7 +189,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Merge k Sorted Lists (Expand/Collapse) </summary> 
+<summary> Merge k Sorted Lists </summary> 
 
 ### [↗ See LeetCode Problem #23](https://leetcode.com/problems/merge-k-sorted-lists/)
 
@@ -326,7 +326,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Task Scheduler (Expand/Collapse) </summary> 
+<summary> Task Scheduler </summary> 
 
 ### [↗ See LeetCode Problem #621](https://leetcode.com/problems/task-scheduler/)
 

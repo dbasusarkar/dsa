@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to linked list reversal
 
 <details> 
-<summary> Reverse Linked List (Expand/Collapse) </summary> 
+<summary> Reverse Linked List </summary> 
 
 ### [↗ See LeetCode Problem #206](https://leetcode.com/problems/reverse-linked-list/)
 

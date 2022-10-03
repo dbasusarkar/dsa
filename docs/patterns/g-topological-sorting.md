@@ -18,14 +18,14 @@ import TabItem from '@theme/TabItem';
 ## Problems related to topological sorting 
 
 <details> 
-<summary> Alien Dictionary (Expand/Collapse) </summary> 
+<summary> Alien Dictionary </summary> 
 
 ### [↗ Alien Dictionary](../data-structures/k-graphs.md/)
 
 </details>
 
 <details> 
-<summary> Course Schedule (Expand/Collapse) </summary> 
+<summary> Course Schedule </summary> 
 
 ### [↗ Course Schedule](../data-structures/k-graphs.md)
 

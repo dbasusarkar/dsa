@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to dynamic programming 
 
 <details> 
-<summary> Climbing Stairs (Expand/Collapse) </summary> 
+<summary> Climbing Stairs </summary> 
 
 ### [↗ See LeetCode Problem #70](https://leetcode.com/problems/climbing-stairs/)
 
@@ -71,7 +71,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Coin Change (Expand/Collapse) </summary> 
+<summary> Coin Change </summary> 
 
 ### [↗ See LeetCode Problem #322](https://leetcode.com/problems/coin-change/)
 
@@ -132,7 +132,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Longest Common Subsequence (Expand/Collapse) </summary> 
+<summary> Longest Common Subsequence </summary> 
 
 ### [↗ See LeetCode Problem #1143](https://leetcode.com/problems/longest-common-subsequence/)
 
@@ -193,14 +193,14 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Maximum Subarray (Expand/Collapse) </summary> 
+<summary> Maximum Subarray </summary> 
 
 ### [↗ Maximum Subarray](../algorithms/e-greedy.mdx)
 
 </details>
 
 <details> 
-<summary> Partition Equal Subset Sum (Expand/Collapse) </summary> 
+<summary> Partition Equal Subset Sum </summary> 
 
 ### [↗ See LeetCode Problem #416](https://leetcode.com/problems/partition-equal-subset-sum/)
 
@@ -294,7 +294,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Unique Paths (Expand/Collapse) </summary> 
+<summary> Unique Paths </summary> 
 
 ### [↗ See LeetCode Problem #62](https://leetcode.com/problems/unique-paths/)
 

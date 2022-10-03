@@ -9,6 +9,7 @@ tags: [
     combination-sum,
     container-with-most-water,
     contains-duplicate,
+    find-all-duplicates-in-an-array,
     insert-interval,
     majority-element,
     merge-intervals,
@@ -286,6 +287,78 @@ public class Solution {
 </Tabs>
 
 </details>
+
+<details> 
+<summary> Find All Duplicates in an Array (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #442](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Solution {
+    public static List<Integer> findDuplicates(int[] nums) {
+
+        int index = 0;
+
+        while (index < nums.length) {
+            if (nums[index] != nums[nums[index] - 1]) {
+                swapElements(nums, index, nums[index] - 1);
+            } else {
+                index++;
+            }
+        }
+
+        List<Integer> listOfDuplicates = new ArrayList<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != i + 1) {
+                listOfDuplicates.add(nums[i]);
+            }
+        }
+
+        return listOfDuplicates;
+    }
+
+    private static void swapElements (int[] nums, int index, int correctedIndex) {
+
+        int tempElement = nums[index];
+        nums[index] = nums[correctedIndex];
+        nums[correctedIndex] = tempElement;
+    }
+
+    public static void main (String[] args) {
+
+        // Example 1:
+        int[] nums1 = {4,3,2,7,8,2,3,1};
+        //Output: [2,3]
+
+        // Example 2:
+        int[] nums2 = {1,1,2};
+        //  O/P: [1]
+
+        // Example 3:
+        int[] nums3 = {1};
+        //  O/P: []
+
+        System.out.println(findDuplicates(nums1));
+        System.out.println(findDuplicates(nums2));
+        System.out.println(findDuplicates(nums3));
+    }
+
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
 
 <details> 
 <summary> Insert Interval (Expand/Collapse) </summary> 

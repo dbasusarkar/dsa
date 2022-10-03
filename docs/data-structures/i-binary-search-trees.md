@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to binary search trees 
 
 <details> 
-<summary> Kth Smallest Element in a BST (Expand/Collapse) </summary> 
+<summary> Kth Smallest Element in a BST </summary> 
 
 ### [↗ See LeetCode Problem #230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
@@ -135,7 +135,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Lowest Common Ancestor of a Binary Search Tree (Expand/Collapse) </summary> 
+<summary> Lowest Common Ancestor of a Binary Search Tree </summary> 
 
 ### [↗ See LeetCode Problem #235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
@@ -216,7 +216,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Validate Binary Search Tree (Expand/Collapse) </summary> 
+<summary> Validate Binary Search Tree </summary> 
 
 ### [↗ See LeetCode Problem #98](https://leetcode.com/problems/validate-binary-search-tree/)
 

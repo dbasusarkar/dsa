@@ -18,14 +18,14 @@ import TabItem from '@theme/TabItem';
 ## Problems related to subsets 
 
 <details> 
-<summary> Permutations (Expand/Collapse) </summary> 
+<summary> Permutations </summary> 
 
 ### [↗ Permutations](../algorithms/c-recursion.mdx)
 
 </details>
 
 <details> 
-<summary> Subsets (Expand/Collapse) </summary> 
+<summary> Subsets </summary> 
 
 ### [↗ Subsets](../algorithms/c-recursion.mdx)
 

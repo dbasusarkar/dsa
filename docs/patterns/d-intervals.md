@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to intervals 
 
 <details> 
-<summary> Insert Interval (Expand/Collapse) </summary> 
+<summary> Insert Interval </summary> 
 
 ### [↗ See LeetCode Problem #57](https://leetcode.com/problems/insert-interval/)
 
@@ -115,7 +115,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Merge Intervals (Expand/Collapse) </summary> 
+<summary> Merge Intervals </summary> 
 
 ### [↗ See LeetCode Problem #56](https://leetcode.com/problems/merge-intervals/)
 

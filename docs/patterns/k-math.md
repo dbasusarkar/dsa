@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to math
 
 <details> 
-<summary> Palindrome Number (Expand/Collapse) </summary> 
+<summary> Palindrome Number </summary> 
 
 ### [↗ See LeetCode Problem #9](https://leetcode.com/problems/palindrome-number/)
 
@@ -81,7 +81,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Reverse Integer (Expand/Collapse) </summary> 
+<summary> Reverse Integer </summary> 
 
 ### [↗ See LeetCode Problem #7](https://leetcode.com/problems/reverse-integer/)
 
@@ -149,7 +149,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Roman to Integer (Expand/Collapse) </summary> 
+<summary> Roman to Integer </summary> 
 
 ### [↗ See LeetCode Problem #13](https://leetcode.com/problems/roman-to-integer/)
 
@@ -226,7 +226,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Squares of a Sorted Array (Expand/Collapse) </summary> 
+<summary> Squares of a Sorted Array </summary> 
 
 ### [↗ See LeetCode Problem #977](https://leetcode.com/problems/squares-of-a-sorted-array/)
 

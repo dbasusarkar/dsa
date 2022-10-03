@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to sliding window 
 
 <details> 
-<summary> Longest Substring Without Repeating Characters (Expand/Collapse) </summary> 
+<summary> Longest Substring Without Repeating Characters </summary> 
 
 ### [↗ Longest Substring Without Repeating Characters](../data-structures/b-strings.md)
 
@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 
 
 <details> 
-<summary> Minimum Window Substring (Expand/Collapse) </summary> 
+<summary> Minimum Window Substring </summary> 
 
 ### [↗ Minimum Window Substring](../data-structures/b-strings.md)
 
@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 </details>
 
 <details> 
-<summary> Sliding Window Maximum (Expand/Collapse) </summary> 
+<summary> Sliding Window Maximum </summary> 
 
 ### [↗ See LeetCode Problem #239](https://leetcode.com/problems/sliding-window-maximum/)
 

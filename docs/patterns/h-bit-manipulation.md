@@ -24,7 +24,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to bit manipulation 
 
 <details> 
-<summary> Add Binary (Expand/Collapse) </summary> 
+<summary> Add Binary </summary> 
 
 ### [↗ See LeetCode Problem #67](https://leetcode.com/problems/add-binary/)
 
@@ -92,7 +92,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Counting Bits (Expand/Collapse) </summary> 
+<summary> Counting Bits </summary> 
 
 ### [↗ See LeetCode Problem #338](https://leetcode.com/problems/counting-bits/)
 
@@ -145,7 +145,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Missing Number (Expand/Collapse) </summary> 
+<summary> Missing Number </summary> 
 
 ### [↗ See LeetCode Problem #268](https://leetcode.com/problems/missing-number/)
 
@@ -201,7 +201,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Number of 1 Bits (Expand/Collapse) </summary> 
+<summary> Number of 1 Bits </summary> 
 
 ### [↗ See LeetCode Problem #191](https://leetcode.com/problems/number-of-1-bits/)
 
@@ -251,7 +251,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Reverse Bits (Expand/Collapse) </summary> 
+<summary> Reverse Bits </summary> 
 
 ### [↗ See LeetCode Problem #190](https://leetcode.com/problems/reverse-bits/)
 
@@ -323,7 +323,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Single Number (Expand/Collapse) </summary> 
+<summary> Single Number </summary> 
 
 ### [↗ See LeetCode Problem #136](https://leetcode.com/problems/single-number/)
 

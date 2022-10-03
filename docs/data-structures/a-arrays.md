@@ -30,7 +30,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to arrays
 
 <details> 
-<summary> Best Time to Buy and Sell Stocks (Expand/Collapse) </summary> 
+<summary> Best Time to Buy and Sell Stocks </summary> 
 
 ### [↗ See LeetCode Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
@@ -87,7 +87,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Combination Sum (Expand/Collapse) </summary> 
+<summary> Combination Sum </summary> 
 
 ### [↗ See LeetCode Problem #39](https://leetcode.com/problems/combination-sum/)
 
@@ -178,7 +178,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Container with Most Water (Expand/Collapse) </summary> 
+<summary> Container with Most Water </summary> 
 
 ### [↗ See LeetCode Problem #11](https://leetcode.com/problems/container-with-most-water/)
 
@@ -234,7 +234,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Contains Duplicate (Expand/Collapse) </summary> 
+<summary> Contains Duplicate </summary> 
 
 ### [↗ See LeetCode Problem #217](https://leetcode.com/problems/contains-duplicate/)
 
@@ -289,7 +289,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Find All Duplicates in an Array (Expand/Collapse) </summary> 
+<summary> Find All Duplicates in an Array </summary> 
 
 ### [↗ See LeetCode Problem #442](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
@@ -361,7 +361,7 @@ public class Solution {
 
 
 <details> 
-<summary> Insert Interval (Expand/Collapse) </summary> 
+<summary> Insert Interval </summary> 
 
 ### [↗ See LeetCode Problem #57](https://leetcode.com/problems/insert-interval/)
 
@@ -456,7 +456,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Majority Element (Expand/Collapse) </summary> 
+<summary> Majority Element </summary> 
 
 <!-- [LC# 169] majority_element [***Grind75-Array-3/11] -->
 ### [↗ See LeetCode Problem #169](https://leetcode.com/problems/majority-element/)
@@ -514,7 +514,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Merge Intervals (Expand/Collapse) </summary> 
+<summary> Merge Intervals </summary> 
 
 ### [↗ See LeetCode Problem #56](https://leetcode.com/problems/merge-intervals/)
 
@@ -576,7 +576,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Product of Array Except Self (Expand/Collapse) </summary> 
+<summary> Product of Array Except Self </summary> 
 
 ### [↗ See LeetCode Problem #238](https://leetcode.com/problems/product-of-array-except-self/)
 
@@ -637,7 +637,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Sort Colors (Expand/Collapse) </summary> 
+<summary> Sort Colors </summary> 
 
 ### [↗ See LeetCode Problem #75](https://leetcode.com/problems/sort-colors/)
 
@@ -702,7 +702,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Two Sum (Expand/Collapse) </summary> 
+<summary> Two Sum </summary> 
 
 ### [↗ See LeetCode Problem #1](https://leetcode.com/problems/two-sum/)
 
@@ -786,7 +786,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> 3Sum (Expand/Collapse) </summary> 
+<summary> 3Sum </summary> 
 
 ### [↗ See LeetCode Problem #15](https://leetcode.com/problems/3sum/)
 

@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to hash table 
 
 <details> 
-<summary> Ransom Note (Expand/Collapse) </summary> 
+<summary> Ransom Note </summary> 
 
 ### [↗ See LeetCode Problem #383](https://leetcode.com/problems/ransom-note/)
 
@@ -83,7 +83,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Two Sum (Expand/Collapse) </summary>
+<summary> Two Sum </summary>
 
 ### [↗ Two Sum](./a-arrays.md)
 

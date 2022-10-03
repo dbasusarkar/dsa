@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to queues 
 
 <details> 
-<summary> Design Hit Counter (Expand/Collapse) </summary> 
+<summary> Design Hit Counter </summary> 
 
 ### [↗ See LeetCode Problem #362](https://leetcode.com/problems/design-hit-counter/)
 

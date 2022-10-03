@@ -18,21 +18,21 @@ import TabItem from '@theme/TabItem';
 ## Problems related to fast and slow pointers
 
 <details> 
-<summary> Linked List Cycle (Expand/Collapse) </summary> 
+<summary> Linked List Cycle </summary> 
 
 ### [↗ Linked List Cycle](../data-structures/c-linked-lists.md)
 
 </details>
 
 <details> 
-<summary> Middle of the Linked List (Expand/Collapse) </summary> 
+<summary> Middle of the Linked List </summary> 
 
 ### [↗ Middle of the Linked List](../data-structures/c-linked-lists.md)
 
 </details>
 
 <details> 
-<summary> Palindrome Linked List (Expand/Collapse) </summary> 
+<summary> Palindrome Linked List </summary> 
 
 ### [↗ Palindrome Linked List](../data-structures/c-linked-lists.md)
 

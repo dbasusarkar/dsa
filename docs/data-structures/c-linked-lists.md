@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to strings 
 
 <details> 
-<summary> Intersection of Two Linked Lists (Expand/Collapse) </summary> 
+<summary> Intersection of Two Linked Lists </summary> 
 
 ### [↗ See LeetCode Problem #160](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
@@ -139,7 +139,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Linked List Cycle (Expand/Collapse) </summary> 
+<summary> Linked List Cycle </summary> 
 
 ### [↗ See LeetCode Problem #141](https://leetcode.com/problems/linked-list-cycle/)
 
@@ -263,7 +263,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> LRU Cache (Expand/Collapse) </summary> 
+<summary> LRU Cache </summary> 
 
 ### [↗ See LeetCode Problem #146](https://leetcode.com/problems/lru-cache/)
 
@@ -425,7 +425,7 @@ class Solution {
 </details>
 
 <details> 
-<summary> Merge Two Sorted Lists (Expand/Collapse) </summary> 
+<summary> Merge Two Sorted Lists </summary> 
 
 ### [↗ See LeetCode Problem #21](https://leetcode.com/problems/merge-two-sorted-lists/)
 
@@ -577,7 +577,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Middle of the Linked List (Expand/Collapse) </summary> 
+<summary> Middle of the Linked List </summary> 
 
 ### [↗ See LeetCode Problem #876](https://leetcode.com/problems/middle-of-the-linked-list/)
 
@@ -666,7 +666,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Palindrome Linked List (Expand/Collapse) </summary> 
+<summary> Palindrome Linked List </summary> 
 
 ### [↗ See LeetCode Problem #234](https://leetcode.com/problems/palindrome-linked-list/)
 
@@ -687,7 +687,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Remove Nth Node from End of List (Expand/Collapse) </summary> 
+<summary> Remove Nth Node from End of List </summary> 
 
 ### [↗ See LeetCode Problem #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
@@ -784,7 +784,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Reorder List (Expand/Collapse) </summary> 
+<summary> Reorder List </summary> 
 
 ### [↗ See LeetCode Problem #143](https://leetcode.com/problems/reorder-list/)
 
@@ -906,7 +906,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Palindrome Linked List (Expand/Collapse) </summary> 
+<summary> Palindrome Linked List </summary> 
 
 ### [↗ See LeetCode Problem #234](https://leetcode.com/problems/palindrome-linked-list/)
 
@@ -1028,7 +1028,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Reverse Linked List (Expand/Collapse) </summary> 
+<summary> Reverse Linked List </summary> 
 
 ### [↗ See LeetCode Problem #206](https://leetcode.com/problems/reverse-linked-list/)
 

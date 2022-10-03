@@ -19,14 +19,14 @@ import TabItem from '@theme/TabItem';
 ## Problems related to matrices 
 
 <details> 
-<summary> Flood Fill (Expand/Collapse) </summary> 
+<summary> Flood Fill </summary> 
 
 ### [↗ Flood Fill](../data-structures/k-graphs.md)
 
 </details>
 
 <details> 
-<summary> Spiral Matrix (Expand/Collapse) </summary> 
+<summary> Spiral Matrix </summary> 
 
 ### [↗ See LeetCode Problem #54](https://leetcode.com/problems/spiral-matrix/)
 

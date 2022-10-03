@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to tries 
 
 <details> 
-<summary> Implement Trie (Prefix Tree) (Expand/Collapse) </summary> 
+<summary> Implement Trie (Prefix Tree) </summary> 
 
 ### [↗ See LeetCode Problem #208](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
@@ -185,7 +185,7 @@ public class Trie {
 </details>
 
 <details> 
-<summary> Word Break (Expand/Collapse) </summary> 
+<summary> Word Break </summary> 
 
 ### [↗ See LeetCode Problem #139](https://leetcode.com/problems/word-break/)
 

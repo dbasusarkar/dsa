@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to strings 
 
 <details> 
-<summary> Find All Anagrams in a String (Expand/Collapse) </summary> 
+<summary> Find All Anagrams in a String </summary> 
 
 ### [↗ See LeetCode Problem #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
@@ -114,7 +114,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Group Anagrams (Expand/Collapse) </summary> 
+<summary> Group Anagrams </summary> 
 
 ### [↗ See LeetCode Problem #49](https://leetcode.com/problems/group-anagrams/)
 
@@ -196,7 +196,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Longest Common Prefix (Expand/Collapse) </summary> 
+<summary> Longest Common Prefix </summary> 
 
 ### [↗ See LeetCode Problem #14](https://leetcode.com/problems/longest-common-prefix/)
 
@@ -246,7 +246,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Longest Palindrome (Expand/Collapse) </summary> 
+<summary> Longest Palindrome </summary> 
 
 ### [↗ See LeetCode Problem #409](https://leetcode.com/problems/longest-palindrome/)
 
@@ -334,7 +334,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Longest Palindromic Substring (Expand/Collapse) </summary> 
+<summary> Longest Palindromic Substring </summary> 
 
 ### [↗ See LeetCode Problem #5](https://leetcode.com/problems/longest-palindromic-substring/)
 
@@ -419,7 +419,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Longest Substring Without Repeating Characters (Expand/Collapse) </summary> 
+<summary> Longest Substring Without Repeating Characters </summary> 
 
 ### [↗ See LeetCode Problem #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
@@ -487,7 +487,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Minimum Window Substring (Expand/Collapse) </summary> 
+<summary> Minimum Window Substring </summary> 
 
 ### [↗ See LeetCode Problem #76](https://leetcode.com/problems/minimum-window-substring/)
 
@@ -618,7 +618,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> String to Integer (atoi) (Expand/Collapse) </summary> 
+<summary> String to Integer (atoi) </summary> 
 
 ### [↗ See LeetCode Problem #8](https://leetcode.com/problems/string-to-integer-atoi/)
 
@@ -711,7 +711,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Valid Anagram (Expand/Collapse) </summary> 
+<summary> Valid Anagram </summary> 
 
 ### [↗ See LeetCode Problem #242](https://leetcode.com/problems/valid-anagram/)
 
@@ -766,7 +766,7 @@ public class Solution {
 </details>
 
 <details> 
-<summary> Valid Palindrome (Expand/Collapse) </summary> 
+<summary> Valid Palindrome </summary> 
 
 ### [↗ See LeetCode Problem #125](https://leetcode.com/problems/valid-palindrome/)
 

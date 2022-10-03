@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 ## Problems related to hash set 
 
 <details> 
-<summary> Word Ladder (Expand/Collapse) </summary> 
+<summary> Word Ladder </summary> 
 
 ### [↗ See LeetCode Problem #127](https://leetcode.com/problems/word-ladder/)
 

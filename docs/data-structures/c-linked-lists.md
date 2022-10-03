@@ -3,6 +3,7 @@ sidebar_position: 3
 id: c-linked-lists
 title: Linked Lists
 tags: [
+    intersection-of-two-linked-lists,
     linked-lists,
     linked-list-cycle,
     lru-cache,
@@ -22,6 +23,27 @@ import TabItem from '@theme/TabItem';
 - Solved problems are presented in alphabetical order
 
 ## Problems related to strings 
+
+<details> 
+<summary> Intersection of Two Linked Lists (Expand/Collapse) </summary> 
+
+### [↗ See LeetCode Problem #160](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
 
 <details> 
 <summary> Linked List Cycle (Expand/Collapse) </summary> 

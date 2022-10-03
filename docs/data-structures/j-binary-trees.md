@@ -36,9 +36,85 @@ import TabItem from '@theme/TabItem';
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+//  Needs to implement TreeNode
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
+//  Utility class to store information from recursive calls
+final class TreeInfo {
+    public final boolean balanced;
+    public final int height;
+
+    public TreeInfo (boolean balanced, int height){
+        this.balanced = balanced;
+        this.height = height;
+    }
+}
+
 public class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+
+    //  Return whether or not the tree at root is balanced while...
+    //      also storing the tree's height in a reference varialbe
+    private TreeInfo isBalancedTreeHelper(TreeNode root) {
+        //  An empty tree is balanced and has height = -1
+        if (root == null) {
+            return new TreeInfo(true, -1);
+        }
+
+        //  Check subtree to see if they are balanced
+        TreeInfo left = isBalancedTreeHelper(root.left);
+        if (!left.balanced) {
+            return new TreeInfo(false, -1);
+        }
+
+        //  Use the height obtained from the recursive calls to...
+        //      determine if the current node is also balanced
+        TreeInfo right = isBalancedTreeHelper(root.right);
+        if (!right.balanced) {
+            return new TreeInfo(false, -1);
+        }
+
+        if (java.lang.Math.abs(left.height - right.height) < 2) {
+            return new TreeInfo(
+                    true, java.lang.Math.max(left.height, right.height) + 1);
+        }
+
+        return new TreeInfo(false, -1);
+    }
+
+    public boolean isBalanced(TreeNode root) {
+
+        return isBalancedTreeHelper(root).balanced;
+
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
     }
 }
 ```
@@ -57,9 +133,108 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+import com.sun.source.tree.Tree;
+
+import java.util.Deque;
+import java.util.ArrayDeque;
+import java.util.List;
+import java.util.ArrayList;
+
+class TreeNode {
+
+   int val;
+   TreeNode left;
+   TreeNode right;
+
+    //   Empty constructor to allow empty TreeNode
+    TreeNode () {
+    }
+
+   TreeNode (int val) {
+      this.val = val;
+   }
+
+//   TreeNode (int val, TreeNode left, TreeNode right) {
+//      this.val = val;
+//      this.left = left;
+//      this.right = right;
+//   }
+}
+
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+    public static List<List<Integer>> levelOrder(TreeNode root) {
+
+        List<List<Integer>> outputList = new ArrayList<>();
+
+        if (root == null) {
+            return outputList;
+        }
+
+        Deque<TreeNode> levelQueue = new ArrayDeque<>();
+        levelQueue.offer(root);
+
+        while (!levelQueue.isEmpty()) {
+            int currentSize = levelQueue.size();
+
+            List<Integer> currentList = new ArrayList<>();
+
+            for (int i = 0; i < currentSize; i++) {
+                TreeNode currentNode = levelQueue.poll();
+                currentList.add(currentNode.val);
+
+                if (currentNode.left != null) {
+                    levelQueue.offer(currentNode.left);
+                }
+
+                if (currentNode.right != null) {
+                    levelQueue.offer(currentNode.right);
+                }
+            }
+            outputList.add(currentList);
+        }
+
+        return outputList;
+    }
+
+        public static void main (String[] ars) {
+
+        //  Example 1
+        TreeNode root1 = new TreeNode(3);
+        root1.left = new TreeNode(9);
+        root1.right = new TreeNode(20);
+        root1.right.left = new TreeNode(15);
+        root1.right.right = new TreeNode(7);
+        //  O/P: [[3],[9,20],[15,7]]
+
+        System.out.println(levelOrder(root1));
+        System.out.println();
+
+        //  Example 2
+        TreeNode root2 = new TreeNode(1);
+        //  O/P: [[1]]
+        System.out.println(levelOrder(root2));
+        System.out.println();
+
+        //  [PROBLEMATIC] Example 3
+        TreeNode root3 = new TreeNode();
+        //  O/P: []
+        System.out.println(levelOrder(root3));
+
     }
 }
 ```
@@ -78,6 +253,7 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+// WILL BE UPDATED SOON!!!
 public class Solution {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
@@ -100,10 +276,84 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
-public class Solution {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
+}
+
+
+public class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+//class Solution {
+
+    //  Global variable to store diameter
+    static int d;
+
+    //  Method to return the longest diameter
+    static int diameterOfBinaryTree(TreeNode root) {
+
+        d = 0;
+        longestPath(root);
+        return d;
+    }
+
+    //  Private method to implement the depth-first search
+    //      to find the longest diameter
+    static int longestPath(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+
+        //  Recursively find the longest path in
+        //      both left child and right child
+        int leftPath = longestPath(root.left);
+        int rightPath = longestPath(root.right);
+
+        //  Update the diameter if leftPath + rightPath is
+        //      greater than current diameter
+        d = Math.max(d, leftPath + rightPath);
+
+        //  Return the longest path between leftPath and rightPath
+        //  Remember to add 1 for the path connecting the node and its parent
+        return Math.max(leftPath, rightPath) + 1;
+    }
+
+    public static void main(String[] args) {
+
+        // Example 1:
+        int[] dataArray1 = {1,2,3,4,5};
+        //  O/P: 3
+
+        // Example 2:
+        int[] dataArray2 = {1,2};
+        //  O/P: 1
+
+        TreeNode treeNode = new TreeNode();
+
+    }
+
 }
 ```
 
@@ -121,9 +371,54 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+ class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode() {}
+     TreeNode(int val) { this.val = val; }
+     TreeNode(int val, TreeNode left, TreeNode right) {
+         this.val = val;
+         this.left = left;
+         this.right = right;
+     }
+ }
+
 public class Solution {
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode() {}
+     *     TreeNode(int val) { this.val = val; }
+     *     TreeNode(int val, TreeNode left, TreeNode right) {
+     *         this.val = val;
+     *         this.left = left;
+     *         this.right = right;
+     *     }
+     * }
+     */
+//    class Solution {
+        static TreeNode invertTree(TreeNode root) {
+
+            if (root == null) {
+                return null;
+            }
+
+            TreeNode right = invertTree(root.right);
+            TreeNode left = invertTree(root.left);
+
+            root.left = right;
+            root.right = left;
+
+            return root;
+
+        }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
     }
 }
 ```
@@ -142,9 +437,51 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+//  Needs to implement TreeNode
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
 public class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+//class Solution {
+    static int maxDepth(TreeNode root) {
+
+        if (root == null) {
+            return 0;
+        } else {
+            int leftHeight = maxDepth(root.left);
+            int rightHeight = maxDepth(root.right);
+
+            return java.lang.Math.max(leftHeight, rightHeight) + 1;
+        }
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
     }
 }
 ```
@@ -163,9 +500,50 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
-public class Solution {
+//  Needs to implement tree
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
+class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+//class Solution {
+    static boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) {
+            return true;
+        } else if (p == null || q == null || p.val != q.val) {
+            return false;
+        }
+
+        return  isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
     }
 }
 ```
@@ -184,11 +562,115 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+//  Need to implement tree
+
+import java.util.ArrayDeque;
+
+//  Needs to implement TreeNode
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+
 public class Solution {
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode(int x) { val = x; }
+     * }
+     */
+    static class Codec {
+
+        //  Postorder DFS follows: left -> right -> root
+        public StringBuilder postorderDFS(TreeNode root,
+                                          StringBuilder sBuilder) {
+
+            if (root == null) {
+                return sBuilder;
+            }
+
+            postorderDFS(root.left, sBuilder);
+            postorderDFS(root.right, sBuilder);
+            sBuilder.append(root.val);
+            sBuilder.append(' ');
+
+            return sBuilder;
+        }
+
+        // Encoding a tree to a single string
+        public String serialize(TreeNode root) {
+
+            StringBuilder sBuilder = postorderDFS(root, new StringBuilder());
+
+            if (sBuilder.length() > 0) {
+                sBuilder.deleteCharAt(sBuilder.length() - 1);
+            }
+
+            return sBuilder.toString();
+        }
+
+        public TreeNode deserializeHelper(Integer low,
+                                          Integer high,
+                                          ArrayDeque<Integer> arrayDeque) {
+            if (arrayDeque.isEmpty()) {
+                return null;
+            }
+
+            int val = arrayDeque.getLast();
+
+            if (val < low || val > high) {
+                return null;
+            }
+
+            arrayDeque.removeLast();
+            TreeNode root = new TreeNode(val);
+            root.right = deserializeHelper(val, high, arrayDeque);
+            root.left = deserializeHelper(low, val, arrayDeque);
+            return root;
+        }
+
+        // Decoding the encoded data to tree.
+        public TreeNode deserialize(String data) {
+
+            if (data.isEmpty()) {
+                return null;
+            }
+
+            ArrayDeque<Integer> arrayDeque = new ArrayDeque<>();
+
+            for (String string : data.split("\\s+")) {
+                arrayDeque.add(Integer.valueOf(string));
+            }
+
+            return deserializeHelper(Integer.MIN_VALUE,
+                    Integer.MAX_VALUE, arrayDeque);
+        }
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
+        // Example 1:
+        int[] root1 = {2, 1, 3};
+        //  O/P: [2,1,3]
+
+        // Example 2:
+        int[] root2 = {};
+        //  O/P: []
+
     }
 }
+
+// Your Codec object will be instantiated and called as such:
+// Codec ser = new Codec();
+// Codec deser = new Codec();
+// String tree = ser.serialize(root);
+// TreeNode ans = deser.deserialize(tree);
+// return ans;
 ```
 
 </TabItem>
@@ -205,9 +687,72 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+//  Needs to implement TreeNode
+
+class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode() {}
+     TreeNode(int val) { this.val = val; }
+     TreeNode(int val, TreeNode left, TreeNode right) {
+         this.val = val;
+         this.left = left;
+         this.right = right;
+     }
+ }
+
 public class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+//class Solution {
+    static boolean isSubtree(TreeNode root, TreeNode subRoot) {
+
+        if (subRoot == null) {
+            return true;
+        }
+
+        if (root == null) {
+            return false;
+        }
+
+        if (isSameTree(root, subRoot)){
+            return true;
+        }
+
+        return (isSubtree(root.left, subRoot) ||
+                isSubtree(root.right, subRoot));
+    }
+
+    private static boolean isSameTree(TreeNode root1, TreeNode root2) {
+        if (root1 == null && root2 == null) {
+            return true;
+        }
+
+        if (root1 == null || root2 == null || root1.val != root2.val) {
+            return false;
+        }
+
+        return (isSameTree(root1.left, root2.left) &&
+                isSameTree(root1.right, root2.right));
+
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
     }
 }
 ```
@@ -226,9 +771,58 @@ public class Solution {
 <TabItem value="java" label="Java">
 
 ```java showLineNumbers
+//  TreeNode needs to be implemented
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
 public class Solution {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+//class Solution {
+    public boolean isSymmetric(TreeNode root) {
+        return isMirror(root, root);
+    }
+
+    public boolean isMirror(TreeNode root1, TreeNode root2) {
+        if (root1 == null && root2 == null) {
+            return true;
+        }
+        if (root1 == null || root2 == null) {
+            return false;
+        }
+
+        return (root1.val == root2.val)
+                && isMirror(root1.left, root2.right)
+                && isMirror(root1.right, root2.left);
+
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+
     }
 }
 ```

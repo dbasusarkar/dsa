@@ -13,12 +13,12 @@ tags: [
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Binary Trees
+# Binary Search Trees
 
-- Understanding binary trees 
+- Understanding binary search trees 
 - Solved problems are presented in alphabetical order
 
-## Problems related to binary trees 
+## Problems related to binary search trees 
 
 <details> 
 <summary> Kth Smallest Element in a BST (Expand/Collapse) </summary> 

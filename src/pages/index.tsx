@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           {/* <button className="button button--secondary button--lg">  */}
           <button>
-            ☼/☾ Mode: Top Right Corner 
+            ☼/☾ Mode: Top Right (Navbar) 
           </button>
           {/* </button> */}
         </div>

@@ -30,3 +30,10 @@ import TabItem from '@theme/TabItem';
 ### [↗ Course Schedule](../data-structures/k-graphs.md)
 
 </details>
+
+<details> 
+<summary> Minimum Height Trees </summary> 
+
+### [↗ Minimum Height Trees](../data-structures/k-graphs.md)
+
+</details> 

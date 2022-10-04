@@ -19,6 +19,13 @@ import TabItem from '@theme/TabItem';
 ## Problems related to hash set 
 
 <details> 
+<summary> Minimum Height Trees </summary> 
+
+### [↗ Minimum Height Trees](./k-graphs.md)
+
+</details> 
+
+<details> 
 <summary> Word Ladder </summary> 
 
 ### [↗ See LeetCode Problem #127](https://leetcode.com/problems/word-ladder/)

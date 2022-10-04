@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dbasusarkar.github.io/dsa/blog"/>
     <subtitle>Data Structures and Algorithms Blog</subtitle>
-    <icon>https://dbasusarkar.github.io/dsa/img/favicon.png</icon>
+    <icon>https://dbasusarkar.github.io/dsa/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Tips and Tricks (v0.01)]]></title>
         <id>some-features</id>

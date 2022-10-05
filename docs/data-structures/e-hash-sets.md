@@ -1,9 +1,9 @@
 ---
 sidebar_position: 5
-id: e-hash-set
-title: Hash Set 
+id: e-hash-sets
+title: Hash Sets
 tags: [
-    hash-set,
+    hash-sets,
     word-ladder,
 ]
 ---
@@ -11,12 +11,12 @@ tags: [
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Hash Set 
+# Hash Sets 
 
-- Understanding hash set
+- Understanding hash sets
 - Solved problems are presented in alphabetical order
 
-## Problems related to hash set 
+## Problems related to hash sets
 
 <details> 
 <summary> Minimum Height Trees </summary> 

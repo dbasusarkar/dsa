@@ -1,9 +1,9 @@
 ---
 sidebar_position: 4 
-id: d-hash-table
-title: Hash Table
+id: d-hash-tables
+title: Hash Tables
 tags: [
-    hash-table,
+    hash-tables,
     ransom-note,
 ]
 ---
@@ -11,12 +11,12 @@ tags: [
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Hash Table
+# Hash Tables
 
-- Understanding hash table 
+- Understanding hash tables 
 - Solved problems are presented in alphabetical order
 
-## Problems related to hash table 
+## Problems related to hash tables
 
 <details> 
 <summary> Ransom Note </summary> 

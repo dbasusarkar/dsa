@@ -114,6 +114,6 @@ public class HitCounter {
 <details> 
 <summary> Word Ladder </summary> 
 
-### [↗ Word Ladder](./e-hash-set.md)
+### [↗ Word Ladder](./e-hash-sets.md)
 
 </details>

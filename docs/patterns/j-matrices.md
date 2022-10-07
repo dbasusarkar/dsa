@@ -114,3 +114,11 @@ public class Solution {
 </Tabs>
 
 </details>
+
+<details> 
+<summary> Word Search </summary> 
+
+### [↗ Word Search](../data-structures/k-graphs.md)
+
+</details>
+

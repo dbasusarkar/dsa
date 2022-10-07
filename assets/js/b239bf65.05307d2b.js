@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsa=self.webpackChunkdsa||[]).push([[6060],{1511:s=>{s.exports=JSON.parse('{"label":"word-search","permalink":"/dsa/docs/tags/word-search","allTagsPath":"/dsa/docs/tags","count":1,"items":[{"id":"data-structures/k-graphs","title":"Graphs","description":"- Understanding graphs","permalink":"/dsa/docs/data-structures/k-graphs"}]}')}}]);

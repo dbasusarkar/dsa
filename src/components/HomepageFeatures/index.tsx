@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/ds.svg').default,
     description: (
       <>
-        All major data structures including arrays, strings, linked lists, hash tables, hash sets, stacks, queues, heaps, trees, graphs, tries, disjoint set or union-find, etc.
+        All major data structures including arrays, linked lists, hash tables, hash sets, stacks, queues, heaps, trees, graphs, tries, disjoint set or union-find, etc.
       </>
     ),
   },

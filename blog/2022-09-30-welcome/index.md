@@ -2,7 +2,6 @@
 slug: welcome
 title: Welcome to Data Structures and Algorithms
 authors: [dbasusarkar]
-# authors: [slorber, yangshun]
 tags: [dsa, news]
 ---
 

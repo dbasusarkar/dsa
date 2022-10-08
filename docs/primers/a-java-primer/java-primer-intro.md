@@ -14,4 +14,4 @@ This page is part of a _**primer series**_ that includes Java, Python, JavaScrip
 
 :::
 
-Everything is objects in Java except for its primitive data types. This object-oriented programming paradigm allows us to build a solid foundation for mission-critical infrastructues.
+Everything is objects in Java except for its primitive data types. This object-oriented programming paradigm allows us to build a solid foundation for mission-critical infrastructures.

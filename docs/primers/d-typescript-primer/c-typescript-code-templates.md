@@ -16,4 +16,4 @@ This page is part of a _**primer series**_ that includes Java, Python, JavaScrip
 
 ::: -->
 
-Please Check back later.
+Please check back later.

@@ -10,4 +10,4 @@ tags: [
 ]
 ---
 
-Please Check back later.
+Please check back later.

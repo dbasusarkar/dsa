@@ -4,7 +4,7 @@ id: b-java-concepts
 title: Important Java Concepts
 tags: [
     java, 
-    data-types,
+    concepts,
     primer,
 ]
 ---

@@ -174,6 +174,11 @@ const config = {
             position: 'left',
           },
           {
+            label: 'Primer Series',
+            to: '/docs/category/primer-series',
+            position: 'left',
+          },
+          {
             to: '/blog', 
             label: 'Blog', 
             position: 'left'
@@ -206,6 +211,10 @@ const config = {
               {
                 label: 'Patterns',
                 to: '/docs/category/patterns',
+              },
+              {
+                label: 'Primer Series',
+                to: '/docs/category/primer-series',
               },
               {  
                 label: 'Blog', 

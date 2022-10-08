@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5 
+sidebar_position: 6 
 id: solved-problems 
 title: Solved Problems
 tags: [solved-problems]

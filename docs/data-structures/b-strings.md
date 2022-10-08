@@ -20,8 +20,15 @@ import TabItem from '@theme/TabItem';
 
 # Strings
 
-- Understanding strings 
+- Understanding the string data type
 - Solved problems are presented in alphabetical order
+
+:::note
+
+A _**string**_ is not a data structure. It's one of the most important data types.
+
+:::
+
 ## Problems related to strings 
 
 <details> 

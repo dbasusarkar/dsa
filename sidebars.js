@@ -105,6 +105,73 @@ const sidebars = {
         'patterns/l-geometry',
       ],
     },
+    {
+      type: 'category',
+      label: 'Primer Series',
+      link: {
+        type: 'generated-index',
+      },
+      // collapsed: true,
+      items: [
+        {
+          type: 'category',
+          label: 'A Primer on Java',
+          link: {
+            type: 'doc',
+            id: 'primers/a-java-primer/java-primer-intro',
+          },
+        // collapsed: true,
+          items: [
+            'primers/a-java-primer/a-java-data-types',
+            'primers/a-java-primer/b-java-concepts',
+            'primers/a-java-primer/c-java-code-templates',
+          ],
+        },    
+        {
+          type: 'category',
+          label: 'A Primer on Python',
+          link: {
+            type: 'doc',
+            id: 'primers/b-python-primer/python-primer-intro',
+          },
+        // collapsed: true,
+          items: [
+            'primers/b-python-primer/a-python-data-types',
+            'primers/b-python-primer/b-python-concepts',
+            'primers/b-python-primer/c-python-code-templates',
+          ],
+        },    
+        {
+          type: 'category',
+          label: 'A Primer on JS',
+          link: {
+            type: 'doc',
+            id: 'primers/c-js-primer/js-primer-intro',
+          },
+        // collapsed: true,
+          items: [
+            'primers/c-js-primer/a-js-data-types',
+            'primers/c-js-primer/b-js-concepts',
+            'primers/c-js-primer/c-js-code-templates',
+          ],
+        },    
+        {
+          type: 'category',
+          label: 'A Primer on TypeScript',
+          link: {
+            type: 'doc',
+            id: 'primers/d-typescript-primer/typescript-primer-intro',
+          },
+        // collapsed: true,
+          items: [
+            'primers/d-typescript-primer/a-typescript-data-types',
+            'primers/d-typescript-primer/b-typescript-concepts',
+            'primers/d-typescript-primer/c-typescript-code-templates',
+          ],
+        },    
+        'primers/regex-primer',
+      ],
+    },
     'solved-problems',
   ],
   // api: [

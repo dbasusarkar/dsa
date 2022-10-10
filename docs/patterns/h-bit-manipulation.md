@@ -116,7 +116,7 @@ import TabItem from '@theme/TabItem';
 |   Operator   |    Description                                                                 |
 |--------------|--------------------------------------------------------------------------------|
 |   **<<**     |    Left shift: bits are shifted to the left, and empty spaces are filled by 0s |
-|              |    Example: $11111 << 3 = 1100$                                                |
+|              |    Example: $11111 << 3 = 11000$                                                |
 |   **>>**     |    Right shift: bits are shifted to the right, empty spaces are filled by 0s   |
 |              |    Example: $11111 >> 3 = 00011$                                               |
 

@@ -15,6 +15,7 @@ tags: [
     merge-intervals,
     product-of-array-except-self,
     sort-colors,
+    the-employee-that-worked-on-the-longest-task,
     two-sum,
 ]
 ---
@@ -692,6 +693,90 @@ public class Solution {
 
         sortColors(nums1);
         sortColors(nums2);
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
+<details> 
+<summary> The Employee That Worked on the Longest Task </summary> 
+
+### [↗ See LeetCode Problem #2432](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+public class Solution {
+    public int hardestWorker(int n, int[][] logs) {
+        //  Declare the id to be returned and initialize it
+        //       with the id from the first element of the given logs array
+        //  It will be updated only if we find a new longest time
+        //      or a smaller id with the same longest time
+        int id = logs[0][0];
+
+        //  Declare the longest time and initialize it with the
+        //      leaveTime from the first elment of the given logs array;
+        //      since, starting time is 0...
+        int longestTime = logs[0][1];
+
+        //  Iterate over all elements of the logs array
+        for (int i = 1; i < logs.length; i++) {
+            //  Store the duration of the current task
+            int currentTime = logs[i][1] - logs[i - 1][1];
+            //  Store the id of the current employee
+            int currentID = logs[i][0];
+
+            //  Update id/longestTime only if current longestTime
+            //      is equal to or smaller than currentTime
+            if (longestTime <= currentTime) {
+                //  Updated the id with a smaller value only if
+                //      longestTime is equal to the currentTime
+                if (longestTime == currentTime) {
+                    id = Math.min(id, currentID);
+                } else {
+                    //  Updated the longestTime
+                    longestTime = Math.max(longestTime, currentTime);
+                    //  Updated the id
+                    id = currentID;
+                }
+            }
+
+        }
+
+        //  return the find value of the id
+        return id;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Example 1:
+        int n = 10;
+        int[] [] logs = new int[][] {{0,3},{2,5},{0,9},{1,15}};
+
+        System.out.println(solution.hardestWorker(n, logs));
+        //  O/P: 1
+
+        System.out.println("---");
+        // Example 2:
+        n = 26;
+        logs = new int[][] {{1,1},{3,7},{2,12},{7,17}};
+
+        System.out.println(solution.hardestWorker(n, logs));
+        //Output: 3
+
+        System.out.println("---");
+        // Example 3:
+        n = 2;
+        logs = new int[][] {{0,10},{1,20}};
+
+        System.out.println(solution.hardestWorker(n, logs));
+        //  O/P: 0
     }
 }
 ```

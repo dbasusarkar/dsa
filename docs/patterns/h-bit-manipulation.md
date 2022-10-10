@@ -19,7 +19,106 @@ import TabItem from '@theme/TabItem';
 # Bit Manipulation 
 
 - Understanding bit manipulation 
+- Discussion on important concepts 
 - Solved problems are presented in alphabetical order
+
+## Important Concepts
+
+### Binary Addition/Multiplication/Division
+
+- Similar to decimal addition/multiplication/division
+
+### Binary Subtraction
+
+#### 1's and 2's Complement
+
+- 1's complement means changing 1s to 0s and 0s to 1s.
+    + 1's complement of $1110$: $0001$
+- 2's complement means adding 1 to 1's complement
+    + 2's complement of $1110$: $0001 + 1 = 0010$ 
+
+<details> 
+<summary> <b>Binary Subtraction Using 1's Complement</b> </summary> 
+
+<!-- #### Binary Subtraction Using 1's Complement -->
+
+- We can subtract B from A using 1's Complement using the following steps:
+    1. Both A and B must have same number of bits to start with 
+        + 0s can be added in the beginning to make the number of bits equal
+    2. Find 1's complement of B
+    3. Add A to 1's complement of B
+    4. There are two possibilities following the addtion in the step above. 
+        + \#1: We'll have 1 extra bit in addition to the total number of bits in A or B.
+        + \#2: We'll have the same number of bits as in A or B
+    5. In the case of one additional bit, we do the following
+        + First, separate the most significant bit (MSB) from the rest of the number
+        + MSB is generally the bit farthest to the left of a binary number
+        + Second, add the MSB to the rest of the number to get our result
+    6. In the case of the same number of bits, we do the following
+        + First, take 1's complement of the number 
+        + Second, add a negative sign in front of it to get our result
+- Example 1: $A = 1000$ and $B = 1110$ 
+    1. 1's complement of B: $0001$
+    2. $1000 + 0001 = 1001$
+    3. 1's complement of $1001$ = $0110$ 
+    4. $A - B = -0110$
+- Example 2: $A = 1110$ and $B = 1000$ 
+    1. 1's complement of B: $0111$
+    2. $1110 + 0111 = 10101$
+    3. We have $1$ (MSB) and $0101$
+    4. $0101 + 0001 = 0110$
+    5. $A - B = 0110$
+
+</details>
+
+<details> 
+<summary> <b>Binary Subtraction Using 2's Complement</b> </summary> 
+
+- We can subtract B from A using 2's Complement using the following steps:
+    1. Both A and B must have same number of bits to start with 
+        + 0s can be added in the beginning to make the number of bits equal
+    2. Find 2's complement of B
+    3. Add A to 2's complement of B
+    4. There are two possibilities following the addtion in the step above. 
+        + \#1: We'll have 1 extra bit in addition to the total number of bits in A or B.
+        + \#2: We'll have the same number of bits as in A or B
+    5. In the case of one additional bit, we do the following
+        + Separate the most significant bit (MSB) from the rest of the number
+        + MSB is generally the bit farthest to the left of a binary number
+        + The rest of the number (without the MSB) is our result
+    6. In the case of the same number of bits, we do the following
+        + First, take 2's complement of the number 
+        + Second, add a negative sign in front of it to get our result
+- Example 1: $A = 1000$ and $B = 1110$ 
+    1. 2's complement of B: $0010$
+    2. $1000 + 0010 = 1010$
+    3. 2's complement of $1010$ = $0110$ 
+    4. $A - B = -0110$
+- Example 2: $A = 1110$ and $B = 1000$ 
+    1. 2's complement of B: $1000$
+    2. $1110 + 1000 = 10110$
+    3. We have $1$ (MSB) and $0110$
+    4. $A - B = 0110$
+
+</details>
+
+### Bitwise Operators
+
+|   Operator    |   Symbol  | Description                                                                |
+|---------------|-----------|----------------------------------------------------------------------------|
+|   AND         |   **&**   |   0 & 1 or 0 & 0 is 0; 1 & 1 is 1                                          |
+|   OR          |   **\|**  |   0 \| 1 or 1 \| 1 is 1; 0 \| 0 is 0                                       |
+|   XOR         |   **^**   |   0^0 or 1^1 is 0; 0^1 is 1 (i.e., 1 for different bits, 0 for same bits)  |
+|   NOT         |   **\~**  |   ~0 is a sequence of 1s and ~1 of 0s (i.e., 1 becomes 0 and 0 becomes 1)  |
+
+### Bitwise Shift Operators
+
+|   Operator   |    Description                                                                 |
+|--------------|--------------------------------------------------------------------------------|
+|   **<<**     |    Left shift: bits are shifted to the left, and empty spaces are filled by 0s |
+|              |    Example: $11111 << 3 = 1100$                                                |
+|   **>>**     |    Right shift: bits are shifted to the right, empty spaces are filled by 0s   |
+|              |    Example: $11111 >> 3 = 00011$                                               |
 
 ## Problems related to bit manipulation 
 

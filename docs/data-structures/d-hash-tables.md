@@ -88,3 +88,10 @@ public class Solution {
 ### [↗ Two Sum](./a-arrays.md)
 
 </details>
+
+<details> 
+<summary> Two Sum IV - Input is a BST </summary> 
+
+### [↗ Two Sum IV - Input is a BST](../data-structures/i-binary-search-trees.md)
+
+</details>

@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 # Bit Manipulation 
 
 - Understanding bit manipulation 
-- Discussion on important concepts 
+- Important concepts 
 - Solved problems are presented in alphabetical order
 
 ## Important Concepts
@@ -119,6 +119,23 @@ import TabItem from '@theme/TabItem';
 |              |    Example: $11111 << 3 = 1100$                                                |
 |   **>>**     |    Right shift: bits are shifted to the right, empty spaces are filled by 0s   |
 |              |    Example: $11111 >> 3 = 00011$                                               |
+
+### Frequently Encountered Results 
+
+|   Result          |    Description                                                     |
+|-------------------|--------------------------------------------------------------------|
+|                                           **OR**                                       |
+|   A \| A = A      |   To be added                                                      | 
+|   A \| 0s = A     |   To be added                                                      | 
+|   A \| 1s = 1s    |   To be added                                                      | 
+|                                           **AND**                                      |
+|   A & A = A       |   To be added                                                      | 
+|   A & 0s = 0      |   To be added                                                      | 
+|   A & 1s = A      |   To be added                                                      | 
+|                                           **XOR**                                      |
+|   A ^ A = 0       |   To be added                                                      | 
+|   A ^ 0s = A      |   To be added                                                      | 
+|   A ^ 1s = ~A     |   To be added                                                      |
 
 ## Problems related to bit manipulation 
 

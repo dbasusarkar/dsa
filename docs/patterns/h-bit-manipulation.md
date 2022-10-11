@@ -120,22 +120,66 @@ import TabItem from '@theme/TabItem';
 |   **>>**     |    Right shift: bits are shifted to the right, empty spaces are filled by 0s   |
 |              |    Example: $11111 >> 3 = 00011$                                               |
 
+### Truth Tables
+
+- 0: False
+- 1: True 
+
+#### Bitwise OR
+
+|   Output  |   0   |   1   |   1  |    1   |
+------------|-------|-------|------|--------|
+|     P     |   0   |   0   |   1  |    1   | 
+|     Q     |   0   |   1   |   0  |    1   |
+
+#### Bitwise XOR (Exclusive OR)
+
+|   Output  |   0   |   1   |   1  |    0   |
+------------|-------|-------|------|--------|
+|     P     |   0   |   0   |   1  |    1   | 
+|     Q     |   0   |   1   |   0  |    1   |
+
+#### Bitwise AND 
+
+|   Output  |   0   |   0   |   0  |    1   |
+------------|-------|-------|------|--------|
+|     P     |   0   |   0   |   1  |    1   | 
+|     Q     |   0   |   1   |   0  |    1   |
+
 ### Frequently Encountered Results 
 
-|   Result          |    Description                                                     |
-|-------------------|--------------------------------------------------------------------|
-|                                           **OR**                                       |
-|   A \| A = A      |   To be added                                                      | 
-|   A \| 0s = A     |   To be added                                                      | 
-|   A \| 1s = 1s    |   To be added                                                      | 
-|                                           **AND**                                      |
-|   A & A = A       |   To be added                                                      | 
-|   A & 0s = 0      |   To be added                                                      | 
-|   A & 1s = A      |   To be added                                                      | 
-|                                           **XOR**                                      |
-|   A ^ A = 0       |   To be added                                                      | 
-|   A ^ 0s = A      |   To be added                                                      | 
-|   A ^ 1s = ~A     |   To be added                                                      |
+|   Result          |    Description                                                            |
+|-------------------|---------------------------------------------------------------------------|
+|                                           **OR**                                              |
+|   A \| A = A      |   Same operand on either side of the operator                             | 
+|                   |   Example 1 (A = 0): 0 | 0 = 0                                            |
+|                   |   Example 2 (A = 1): 1 | 1 = 1                                            | 
+|   A \| 0s = A     |   A \| FALSE is always A                                                  | 
+|                   |   Example 1 (A = 0): 0 | 0 = 0                                            |
+|                   |   Example 2 (A = 1): 1 | 0 = 1                                            | 
+|   A \| 1s = 1s    |   A \| TRUE is always TRUE                                                | 
+|                   |   Example 1 (A = 0): 0 | 1 = 1                                            |
+|                   |   Example 2 (A = 1): 1 | 1 = 1                                            | 
+|                                           **XOR**                                             |
+|   A ^ A = 0       |   If both operands are the same, XOR always yields FALSE                  | 
+|                   |   Example 1 (A = 0): 0 ^ 0 = 0                                            |
+|                   |   Example 2 (A = 1): 1 ^ 1 = 0                                            | 
+|   A ^ 0s = A      |   One operand is A, while the other is FALSE; so, XOR always yields A     | 
+|                   |   Example 1 (A = 0): 0 ^ 0 = 0                                            |
+|                   |   Example 2 (A = 1): 1 ^ 0 = 1                                            | 
+|   A ^ 1s = ~A     |   One operand is A, while the other is TRUE; so, XOR NEVER yields A       |
+|                   |   Example 1 (A = 0): 0 ^ 1 = 1                                            |
+|                   |   Example 2 (A = 1): 1 ^ 1 = 0                                            | 
+|                                           **AND**                                             |
+|   A & A = A       |   Same operand on either side of the operator                             | 
+|                   |   Example 1 (A = 0): 0 & 0 = 0                                            |
+|                   |   Example 2 (A = 1): 1 & 1 = 1                                            | 
+|   A & 0s = 0      |   One operand is FALSE; so, AND always yields FALSE                       | 
+|                   |   Example 1 (A = 0): 0 & 0 = 0                                            |
+|                   |   Example 2 (A = 1): 1 & 0 = 0                                            | 
+|   A & 1s = A      |   One operand is A, while the other is TRUE; so, AND always yields A      | 
+|                   |   Example 1 (A = 0): 0 & 1 = 0                                            |
+|                   |   Example 2 (A = 1): 1 & 1 = 1                                            | 
 
 ## Problems related to bit manipulation 
 

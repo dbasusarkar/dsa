@@ -152,14 +152,14 @@ import TabItem from '@theme/TabItem';
 |-------------------|---------------------------------------------------------------------------|
 |                                           **OR**                                              |
 |   A \| A = A      |   Same operand on either side of the operator                             | 
-|                   |   Example 1 (A = 0): 0 | 0 = 0                                            |
-|                   |   Example 2 (A = 1): 1 | 1 = 1                                            | 
+|                   |   Example 1 (A = 0): 0 \| 0 = 0                                            |
+|                   |   Example 2 (A = 1): 1 \| 1 = 1                                            | 
 |   A \| 0s = A     |   A \| FALSE is always A                                                  | 
-|                   |   Example 1 (A = 0): 0 | 0 = 0                                            |
-|                   |   Example 2 (A = 1): 1 | 0 = 1                                            | 
+|                   |   Example 1 (A = 0): 0 \| 0 = 0                                            |
+|                   |   Example 2 (A = 1): 1 \| 0 = 1                                            | 
 |   A \| 1s = 1s    |   A \| TRUE is always TRUE                                                | 
-|                   |   Example 1 (A = 0): 0 | 1 = 1                                            |
-|                   |   Example 2 (A = 1): 1 | 1 = 1                                            | 
+|                   |   Example 1 (A = 0): 0 \| 1 = 1                                            |
+|                   |   Example 2 (A = 1): 1 \| 1 = 1                                            | 
 |                                           **XOR**                                             |
 |   A ^ A = 0       |   If both operands are the same, XOR always yields FALSE                  | 
 |                   |   Example 1 (A = 0): 0 ^ 0 = 0                                            |

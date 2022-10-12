@@ -10,6 +10,7 @@ tags: [
     number-of-1-bits,
     reverse-bits,
     single-number,
+    sort-integers-by-the-number-of-1-bits
 ]
 ---
 
@@ -305,6 +306,23 @@ public class Solution {
 </details>
 
 <details> 
+<summary> Find the Duplicate Number </summary> 
+
+### [↗ See LeetCode Problem #287](https://leetcode.com/problems/find-the-duplicate-number/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+// Will be updated soon
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
+<details> 
 <summary> Missing Number </summary> 
 
 ### [↗ See LeetCode Problem #268](https://leetcode.com/problems/missing-number/)
@@ -517,6 +535,123 @@ public class Solution {
         System.out.println("Example 1: " + singleNumber(nums1));
         System.out.println("Example 2: " + singleNumber(nums2));
         System.out.println("Example 3: " + singleNumber(nums3));
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+</details>
+
+<details> 
+<summary> Sort Integers by the Number of 1 Bits </summary> 
+
+### [↗ See LeetCode Problem #1356](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java showLineNumbers
+import java.util.Arrays;
+
+public class Solution {
+    public int[] sortByBits(int[] arr) {
+            int lengthArray = arr.length;
+        int[] oneBitsArray = new int[lengthArray];
+
+        //  Sort the given array in ascending order
+        //      since we have to return elements with
+        //      the same number of 1's in the ascending order
+        Arrays.sort(arr);
+
+        //  Iterate over the elements of a given array
+        //      to count the number of 1's in each (element)_2
+        //  Store the number of each element in oneBitsArray
+        for (int i = 0; i < lengthArray; i++) {
+            //  Declare and initialize the count of 1's
+            int countOneBits = 0;
+
+            //  Store the current array element
+            int currentElement = arr[i];
+
+            //  Iterative over the all bits in the
+            //      binary version of the current element
+            //      to count the total number of 1's
+            while (currentElement > 0) {
+                //  If 1 bit AND with currentElement yields 1
+                //      we have a 1, so countOneBits increased by 1
+                if ((currentElement & 1) == 1) {
+                    countOneBits++;
+                }
+
+                //  Once the current bit from the binary version
+                //      of current element is processed as above
+                //      we get rid of it with the right shift operator,
+                //      using >> (by 1 bit only)
+                currentElement >>= 1;
+            }
+
+            //  Add the current value of countOneBits
+            //      as the current element in oneBitsArray
+            oneBitsArray[i] = countOneBits;
+        }
+
+        //  Declare and initialize the resultArray to be returned
+        int[] result = new int[arr.length];
+
+        //  Declare and initialize index for result array to be returned
+        int resultIndex = 0;
+
+        //  Declare and initialize maximum number of bits
+        //      to be considered
+        //  This can be obtained from the contstraints
+        //      limiting the size of each element in the given array
+        //  There are 14 bits in 10000 (given constraint)
+        int maxBits = 14;
+
+        //  Iterate over all bits assuming a maximum possible value
+        //      of an element in binary representation
+        //  Start from 0 and loop through maxBits
+        //      for a maximum of maxBits number of 1's
+        for (int i = 0; i < maxBits; i++) {
+            //  Now, iterate over the array with the count of 1's
+            for (int j = 0; j < oneBitsArray.length; j++) {
+                //  If the count of 1's matches with the number of
+                //      possible 1's in the binary representation of
+                //      of an element in the given array (that is
+                //      already sorted in the beginning), then add
+                //      this number to the result array to be returned
+                if (oneBitsArray[j] == i) {
+                    //  Update the result by at current index
+                    //      and THEN increase the index by 1;
+                    //      hence post-increment
+                    result[resultIndex++] = arr[j];
+                }
+            }
+        }
+
+        //  Return the updated array
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+        Solution solution = new Solution();
+
+        // Example 1:
+        int[] arr = new int[] {0,1,2,3,4,5,6,7,8};
+
+        System.out.println(Arrays.toString(solution.sortByBits(arr)));
+        //  O/P: [0,1,2,4,8,3,5,6,7]
+
+        System.out.println();
+        // Example 2:
+        arr = new int[] {1024,512,256,128,64,32,16,8,4,2,1};
+
+        System.out.println(Arrays.toString(solution.sortByBits(arr)));
+        //  O/P: [1,2,4,8,16,32,64,128,256,512,1024]
+
     }
 }
 ```
